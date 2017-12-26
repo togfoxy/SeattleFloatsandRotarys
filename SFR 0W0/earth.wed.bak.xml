@@ -24,7 +24,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Node 1"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.630453687" longitude="-122.339330457" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.629989067" longitude="-122.338782367" split="0"/>
             <markings/>
         </object>
         <object class="WED_Select" id="2" parent_id="1">
@@ -33,8 +33,7 @@
             <children/>
             <hierarchy name="selection"/>
             <selection>
-                <sel id="756"/>
-                <sel id="757"/>
+                <sel id="382"/>
             </selection>
         </object>
         <object class="WED_TextureNode" id="514" parent_id="510">
@@ -106,7 +105,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Node 3"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.652208655" longitude="-122.315249144" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.639292207" longitude="-122.332482386" split="0"/>
             <markings/>
         </object>
         <object class="WED_Group" id="11" parent_id="5">
@@ -184,7 +183,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Node 4"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.653615693" longitude="-122.317496733" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.639491232" longitude="-122.335557171" split="0"/>
             <markings/>
         </object>
         <object class="WED_RunwayNode" id="20" parent_id="18">
@@ -192,7 +191,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="unnamed entity"/>
-            <point latitude="47.652475819" longitude="-122.317153987"/>
+            <point latitude="47.639001826" longitude="-122.334387566"/>
         </object>
         <object class="WED_TextureNode" id="532" parent_id="528">
             <sources/>
@@ -342,8 +341,8 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Helipad 1"/>
-            <point heading="0.00" latitude="47.636402918" longitude="-122.329153751"/>
-            <ramp_start airlines="" ramp_op_type="General Aviation" traffic="14" type="Tie-Down" width="B"/>
+            <point heading="0.00" latitude="47.636412278" longitude="-122.329168392"/>
+            <ramp_start airlines="" ramp_op_type="General Aviation" traffic="20" type="Tie-Down" width="C"/>
         </object>
         <object class="WED_AirportChain" id="383" parent_id="384">
             <sources/>
@@ -3440,15 +3439,15 @@
         </pref>
         <pref name="doc/export_target" value="5"/>
         <pref name="doc/use_feet" value="1"/>
-        <pref name="map/east" value="-122.328688"/>
-        <pref name="map/north" value="47.636889"/>
+        <pref name="map/east" value="-122.317619"/>
+        <pref name="map/north" value="47.644021"/>
         <pref name="map/obj_density" value="6"/>
         <pref name="map/pavement_alpha" value="1"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-        <pref name="map/south" value="47.636100"/>
+        <pref name="map/south" value="47.626522"/>
         <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="-122.329670"/>
+        <pref name="map/west" value="-122.340725"/>
         <pref name="map/world_map_vis" value="0"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
@@ -3470,7 +3469,7 @@
         <pref name="map_Light Fixture_Approach Angle" value="3.000000"/>
         <pref name="map_Light Fixture_Fixture Type" value="35"/>
         <pref name="map_Lines_Resource" value="CDB-Library/Airport/paviment/dashed_line.lin"/>
-        <pref name="map_Objects_Object" value="lib/g10/US/industrial/light/SiteOffice8x14.obj"/>
+        <pref name="map_Objects_Object" value="lib/airport/beacons/beacon_seaport.obj"/>
         <pref name="map_Objects_Show with" value="558"/>
         <pref name="map_Polygons_Heading" value="0.000000"/>
         <pref name="map_Polygons_Resource" value="lib/g10/terrain10/orch_hot_rain_sflat.pol"/>
@@ -3521,7 +3520,7 @@
         <pref name="map_Vertex_Snap To Vertices" value="1"/>
         <pref name="map_Windsock_Lit" value="0"/>
         <pref name="window/height" value="827"/>
-        <pref name="window/main_split" value="350"/>
+        <pref name="window/main_split" value="310"/>
         <pref name="window/main_split2" value="1110"/>
         <pref name="window/prev_split" value="177"/>
         <pref name="window/prop_split" value="484"/>
