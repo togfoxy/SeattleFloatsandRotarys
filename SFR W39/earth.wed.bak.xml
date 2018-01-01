@@ -25,7 +25,7 @@
             <children/>
             <hierarchy name="selection"/>
             <selection>
-                <sel id="74"/>
+                <sel id="18"/>
             </selection>
         </object>
         <object class="WED_TextureNode" id="66" parent_id="62">
@@ -44,7 +44,7 @@
                 <child id="20"/>
             </children>
             <hierarchy hidden="0" locked="0" name="05/23"/>
-            <line width="304.80"/>
+            <line width="144.35"/>
             <sealane has_buoys="1"/>
         </object>
         <object class="WED_KeyObjects" id="3" parent_id="1">
@@ -91,7 +91,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="unnamed entity"/>
-            <point latitude="48.607428352" longitude="-123.173554260"/>
+            <point latitude="48.606811414" longitude="-123.173131799"/>
         </object>
         <object class="WED_Group" id="4" parent_id="1">
             <sources/>
@@ -117,19 +117,19 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="unnamed entity"/>
-            <point latitude="48.613006712" longitude="-123.154605241"/>
+            <point latitude="48.612307728" longitude="-123.154080221"/>
         </object>
         <object class="WED_Airport" id="5" parent_id="4">
             <sources/>
             <viewers/>
             <children>
+                <child id="83"/>
                 <child id="75"/>
                 <child id="82"/>
                 <child id="81"/>
                 <child id="80"/>
                 <child id="79"/>
                 <child id="78"/>
-                <child id="74"/>
                 <child id="73"/>
                 <child id="11"/>
                 <child id="24"/>
@@ -578,14 +578,6 @@
             <point heading="47.24" latitude="48.607404471" length="50.0" longitude="-123.162463231" width="36.2"/>
             <helipad lights="Yellow" markings="Default" roughness="0.00" shoulder="None" surface="Grass"/>
         </object>
-        <object class="WED_ObjPlacement" id="74" parent_id="5">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="rooftop_helipad_5.obj"/>
-            <point heading="40.00" latitude="48.607399886" longitude="-123.162465015"/>
-            <obj_placement custom_msl="1" msl="2.744" resource="lib/g10/global_objects/rooftop_helipad_5.obj" show_level="1 Default"/>
-        </object>
         <object class="WED_SimpleBoundaryNode" id="76" parent_id="75">
             <sources/>
             <viewers/>
@@ -640,6 +632,14 @@
             <point heading="90.00" latitude="48.608174366" longitude="-123.159372126"/>
             <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/T-RnchRHGry.obj" show_level="1 Default"/>
         </object>
+        <object class="WED_RampPosition" id="83" parent_id="5">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Heli 1"/>
+            <point heading="0.00" latitude="48.607402437" longitude="-123.162461917"/>
+            <ramp_start airlines="" ramp_op_type="General Aviation" traffic="16" type="Tie-Down" width="B"/>
+        </object>
     </objects>
     <prefs>
         <pref name="PropertyPane0/Closed">
@@ -647,17 +647,17 @@
             <item value="21"/>
             <item value="24"/>
         </pref>
-        <pref name="doc/export_target" value="5"/>
+        <pref name="doc/export_target" value="4"/>
         <pref name="doc/use_feet" value="1"/>
-        <pref name="map/east" value="-123.161204"/>
-        <pref name="map/north" value="48.608248"/>
+        <pref name="map/east" value="-123.159035"/>
+        <pref name="map/north" value="48.614731"/>
         <pref name="map/obj_density" value="6"/>
         <pref name="map/pavement_alpha" value="1"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-        <pref name="map/south" value="48.606200"/>
+        <pref name="map/south" value="48.602496"/>
         <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="-123.163697"/>
+        <pref name="map/west" value="-123.173936"/>
         <pref name="map/world_map_vis" value="0"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
@@ -732,8 +732,8 @@
         <pref name="window/height" value="827"/>
         <pref name="window/main_split" value="288"/>
         <pref name="window/main_split2" value="1022"/>
-        <pref name="window/prev_split" value="317"/>
-        <pref name="window/prop_split" value="522"/>
+        <pref name="window/prev_split" value="347"/>
+        <pref name="window/prop_split" value="552"/>
         <pref name="window/width" value="1440"/>
         <pref name="window/x_loc" value="-1448"/>
         <pref name="window/y_loc" value="168"/>
