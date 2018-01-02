@@ -46,7 +46,7 @@
             <children/>
             <hierarchy name="selection"/>
             <selection>
-                <sel id="6"/>
+                <sel id="561"/>
             </selection>
         </object>
         <object class="WED_KeyObjects" id="3" parent_id="1">
@@ -70,6 +70,9 @@
             <sources/>
             <viewers/>
             <children>
+                <child id="561"/>
+                <child id="560"/>
+                <child id="559"/>
                 <child id="537"/>
                 <child id="536"/>
                 <child id="535"/>
@@ -82,7 +85,7 @@
                 <child id="19"/>
             </children>
             <hierarchy hidden="0" locked="0" name="Camano Island Airfield"/>
-            <airport always_flatten="0" elevation="44.2" has_atc="0" icao="13W" kind="Airport" scenery_id="-1"/>
+            <airport always_flatten="0" drive_on_left="0" elevation="44.2" has_atc="0" icao="13W" kind="Airport" scenery_id="-1"/>
             <meta_data>
                 <meta_data_entry pair="city,Stanwood"/>
                 <meta_data_entry pair="country,United States"/>
@@ -4900,6 +4903,30 @@
             <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="48.258013688" longitude="-122.438635795" split="0"/>
             <markings/>
         </object>
+        <object class="WED_RampPosition" id="559" parent_id="5">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Ramp 1"/>
+            <point heading="182.79" latitude="48.255320623" longitude="-122.436951916"/>
+            <ramp_start airlines="" ramp_op_type="General Aviation" traffic="30" type="Tie-Down" width="C"/>
+        </object>
+        <object class="WED_RampPosition" id="560" parent_id="5">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Ramp 2"/>
+            <point heading="90.95" latitude="48.254632451" longitude="-122.438149324"/>
+            <ramp_start airlines="" ramp_op_type="General Aviation" traffic="30" type="Tie-Down" width="C"/>
+        </object>
+        <object class="WED_RampPosition" id="561" parent_id="5">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Ramp 3"/>
+            <point heading="90.00" latitude="48.258568462" longitude="-122.437191400"/>
+            <ramp_start airlines="" ramp_op_type="General Aviation" traffic="30" type="Tie-Down" width="D"/>
+        </object>
     </objects>
     <prefs>
         <pref name="PropertyPane0/Closed">
@@ -4907,15 +4934,15 @@
         </pref>
         <pref name="doc/export_target" value="2"/>
         <pref name="doc/use_feet" value="0"/>
-        <pref name="map/east" value="-122.433681"/>
-        <pref name="map/north" value="48.258836"/>
+        <pref name="map/east" value="-122.435584"/>
+        <pref name="map/north" value="48.259009"/>
         <pref name="map/obj_density" value="6"/>
         <pref name="map/pavement_alpha" value="4"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-        <pref name="map/south" value="48.255114"/>
+        <pref name="map/south" value="48.255732"/>
         <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="-122.437350"/>
+        <pref name="map/west" value="-122.438773"/>
         <pref name="map/world_map_vis" value="1"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
@@ -4943,10 +4970,10 @@
         <pref name="map_Polygons_Resource" value="lib/g10/US/industrial/power/OnshoreWF1.ags"/>
         <pref name="map_Polygons_Use Texture Map - Orthophoto" value="0"/>
         <pref name="map_Ramp Start_Airlines" value=""/>
-        <pref name="map_Ramp Start_Equipment Type" value=""/>
-        <pref name="map_Ramp Start_Ramp Operation Type" value="530"/>
-        <pref name="map_Ramp Start_Ramp Start Type" value="139"/>
-        <pref name="map_Ramp Start_Size" value="527"/>
+        <pref name="map_Ramp Start_Equipment Type" value="130,131,132,133"/>
+        <pref name="map_Ramp Start_Ramp Operation Type" value="531"/>
+        <pref name="map_Ramp Start_Ramp Start Type" value="141"/>
+        <pref name="map_Ramp Start_Size" value="525"/>
         <pref name="map_Runway_Appch" value="51"/>
         <pref name="map_Runway_Center" value="1"/>
         <pref name="map_Runway_Dist" value="1"/>
@@ -4987,11 +5014,11 @@
         <pref name="map_Truck Parking_Truck Type" value="154"/>
         <pref name="map_Vertex_Snap To Vertices" value="0"/>
         <pref name="map_Windsock_Lit" value="0"/>
-        <pref name="window/height" value="817"/>
+        <pref name="window/height" value="827"/>
         <pref name="window/main_split" value="330"/>
         <pref name="window/main_split2" value="941"/>
-        <pref name="window/prev_split" value="332"/>
-        <pref name="window/prop_split" value="327"/>
+        <pref name="window/prev_split" value="342"/>
+        <pref name="window/prop_split" value="337"/>
         <pref name="window/width" value="1440"/>
         <pref name="window/x_loc" value="-1448"/>
         <pref name="window/y_loc" value="168"/>
