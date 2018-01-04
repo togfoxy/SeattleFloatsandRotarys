@@ -31,7 +31,7 @@
             <children/>
             <hierarchy name="selection"/>
             <selection>
-                <sel id="156"/>
+                <sel id="393"/>
             </selection>
         </object>
         <object class="WED_KeyObjects" id="3" parent_id="1">
@@ -1303,6 +1303,11 @@
                 <child id="7"/>
                 <child id="17"/>
                 <child id="39"/>
+                <child id="384"/>
+                <child id="385"/>
+                <child id="382"/>
+                <child id="383"/>
+                <child id="381"/>
                 <child id="68"/>
                 <child id="376"/>
                 <child id="161"/>
@@ -1331,6 +1336,10 @@
             <sources/>
             <viewers/>
             <children>
+                <child id="393"/>
+                <child id="391"/>
+                <child id="390"/>
+                <child id="389"/>
                 <child id="184"/>
                 <child id="185"/>
                 <child id="186"/>
@@ -1496,26 +1505,32 @@
         </object>
         <object class="WED_RampPosition" id="184" parent_id="161">
             <sources/>
-            <viewers/>
+            <viewers>
+                <viewer id="390"/>
+            </viewers>
             <children/>
-            <hierarchy hidden="0" locked="0" name="Parking"/>
-            <point heading="92.39" latitude="48.472651920" longitude="-123.019472190"/>
+            <hierarchy hidden="0" locked="0" name="Parking B"/>
+            <point heading="43.38" latitude="48.472421543" longitude="-123.019678106"/>
             <ramp_start airlines="" ramp_op_type="General Aviation" traffic="12" type="Tie-Down" width="A"/>
         </object>
         <object class="WED_RampPosition" id="185" parent_id="161">
             <sources/>
-            <viewers/>
+            <viewers>
+                <viewer id="391"/>
+            </viewers>
             <children/>
-            <hierarchy hidden="0" locked="0" name="Parking"/>
-            <point heading="0.00" latitude="48.472504620" longitude="-123.018987200"/>
+            <hierarchy hidden="0" locked="0" name="Parking C"/>
+            <point heading="0.00" latitude="48.472436360" longitude="-123.018948591"/>
             <ramp_start airlines="" ramp_op_type="General Aviation" traffic="12" type="Tie-Down" width="A"/>
         </object>
         <object class="WED_RampPosition" id="186" parent_id="161">
             <sources/>
-            <viewers/>
+            <viewers>
+                <viewer id="389"/>
+            </viewers>
             <children/>
-            <hierarchy hidden="0" locked="0" name="Parking"/>
-            <point heading="90.69" latitude="48.472847720" longitude="-123.020244370"/>
+            <hierarchy hidden="0" locked="0" name="Parking A"/>
+            <point heading="90.69" latitude="48.472894649" longitude="-123.020328024"/>
             <ramp_start airlines="" ramp_op_type="General Aviation" traffic="12" type="Tie-Down" width="A"/>
         </object>
         <object class="WED_Windsock" id="187" parent_id="168">
@@ -3196,6 +3211,233 @@
             <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="48.473859499" longitude="-123.008646211" split="0"/>
             <markings/>
         </object>
+        <object class="WED_TaxiRouteNode" id="381" parent_id="156">
+            <sources/>
+            <viewers>
+                <viewer id="382"/>
+            </viewers>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="RW_start"/>
+            <point latitude="48.472737541" longitude="-123.009292878"/>
+        </object>
+        <object class="WED_TaxiRoute" id="382" parent_id="156">
+            <sources>
+                <source id="381"/>
+                <source id="383"/>
+            </sources>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="RW"/>
+            <edge ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000"/>
+            <taxi_route oneway="0" runway="09/27" vehicle_class="Aircraft" width="C"/>
+            <departures>
+                <runway value="09"/>
+                <runway value="27"/>
+            </departures>
+            <arrivals>
+                <runway value="09"/>
+                <runway value="27"/>
+            </arrivals>
+            <ils_holds/>
+        </object>
+        <object class="WED_TaxiRouteNode" id="383" parent_id="156">
+            <sources/>
+            <viewers>
+                <viewer id="382"/>
+                <viewer id="384"/>
+            </viewers>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="RW_stop"/>
+            <point latitude="48.472762114" longitude="-123.018827703"/>
+        </object>
+        <object class="WED_TaxiRoute" id="384" parent_id="156">
+            <sources>
+                <source id="383"/>
+                <source id="385"/>
+            </sources>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="A"/>
+            <edge ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000"/>
+            <taxi_route oneway="0" runway="None" vehicle_class="Aircraft" width="C"/>
+            <departures>
+                <runway value="09"/>
+                <runway value="27"/>
+            </departures>
+            <arrivals>
+                <runway value="09"/>
+                <runway value="27"/>
+            </arrivals>
+            <ils_holds/>
+        </object>
+        <object class="WED_TaxiRouteNode" id="385" parent_id="156">
+            <sources/>
+            <viewers>
+                <viewer id="384"/>
+                <viewer id="389"/>
+                <viewer id="390"/>
+                <viewer id="391"/>
+            </viewers>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="A_stop"/>
+            <point latitude="48.472766674" longitude="-123.019061253"/>
+        </object>
+        <object class="WED_TaxiRoute" id="389" parent_id="161">
+            <sources>
+                <source id="385"/>
+                <source id="186"/>
+            </sources>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="A"/>
+            <edge ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000"/>
+            <taxi_route oneway="0" runway="None" vehicle_class="Aircraft" width="C"/>
+            <departures>
+                <runway value="09"/>
+                <runway value="27"/>
+            </departures>
+            <arrivals>
+                <runway value="09"/>
+                <runway value="27"/>
+            </arrivals>
+            <ils_holds/>
+        </object>
+        <object class="WED_TaxiRoute" id="390" parent_id="161">
+            <sources>
+                <source id="385"/>
+                <source id="184"/>
+            </sources>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="B"/>
+            <edge ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000"/>
+            <taxi_route oneway="0" runway="None" vehicle_class="Aircraft" width="C"/>
+            <departures>
+                <runway value="09"/>
+                <runway value="27"/>
+            </departures>
+            <arrivals>
+                <runway value="09"/>
+                <runway value="27"/>
+            </arrivals>
+            <ils_holds/>
+        </object>
+        <object class="WED_TaxiRoute" id="391" parent_id="161">
+            <sources>
+                <source id="385"/>
+                <source id="185"/>
+            </sources>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="C"/>
+            <edge ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000"/>
+            <taxi_route oneway="0" runway="None" vehicle_class="Aircraft" width="C"/>
+            <departures>
+                <runway value="09"/>
+                <runway value="27"/>
+            </departures>
+            <arrivals>
+                <runway value="09"/>
+                <runway value="27"/>
+            </arrivals>
+            <ils_holds/>
+        </object>
+        <object class="WED_ForestRing" id="392" parent_id="393">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="394"/>
+                <child id="395"/>
+                <child id="396"/>
+                <child id="397"/>
+                <child id="398"/>
+                <child id="399"/>
+                <child id="400"/>
+                <child id="401"/>
+                <child id="402"/>
+                <child id="403"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Forest 1 outer ring"/>
+        </object>
+        <object class="WED_ForestPlacement" id="393" parent_id="161">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="392"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="broad_sp_hot_rain.for"/>
+            <forest_placement closed="Area" density="0.3" resource="lib/g8/broad_sp_hot_rain.for"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="394" parent_id="392">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 1"/>
+            <point latitude="48.474494109" longitude="-123.017661864"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="395" parent_id="392">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 2"/>
+            <point latitude="48.474616434" longitude="-123.016923832"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="396" parent_id="392">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 3"/>
+            <point latitude="48.474382904" longitude="-123.016672230"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="397" parent_id="392">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 4"/>
+            <point latitude="48.474416265" longitude="-123.014760055"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="398" parent_id="392">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 5"/>
+            <point latitude="48.474449627" longitude="-123.013971702"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="399" parent_id="392">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 6"/>
+            <point latitude="48.474694278" longitude="-123.013636232"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="400" parent_id="392">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 7"/>
+            <point latitude="48.474938928" longitude="-123.014542000"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="401" parent_id="392">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 8"/>
+            <point latitude="48.475039013" longitude="-123.015967744"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="402" parent_id="392">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 9"/>
+            <point latitude="48.475005651" longitude="-123.017175434"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="403" parent_id="392">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 10"/>
+            <point latitude="48.474783241" longitude="-123.017745732"/>
+        </object>
     </objects>
     <prefs>
         <pref name="PropertyPane0/Closed">
@@ -3207,15 +3449,15 @@
         </pref>
         <pref name="doc/export_target" value="5"/>
         <pref name="doc/use_feet" value="1"/>
-        <pref name="map/east" value="-123.002928"/>
-        <pref name="map/north" value="48.481313"/>
+        <pref name="map/east" value="-123.013536"/>
+        <pref name="map/north" value="48.476746"/>
         <pref name="map/obj_density" value="6"/>
         <pref name="map/pavement_alpha" value="1"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-        <pref name="map/south" value="48.460887"/>
+        <pref name="map/south" value="48.472403"/>
         <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="-123.023002"/>
+        <pref name="map/west" value="-123.019750"/>
         <pref name="map/world_map_vis" value="0"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
@@ -3225,7 +3467,7 @@
         <pref name="map_Facades_Height" value="10.000000"/>
         <pref name="map_Facades_Resource" value="lib/g10/autogen/point_building_30x30_16.fac"/>
         <pref name="map_Forests_Density" value="1.000000"/>
-        <pref name="map_Forests_Resource" value="lib/g10/forests/AG_trees_EU1.for"/>
+        <pref name="map_Forests_Resource" value="lib/g8/broad_sp_hot_rain.for"/>
         <pref name="map_Helipad_Edge Lights" value="15"/>
         <pref name="map_Helipad_Markings" value="67"/>
         <pref name="map_Helipad_Roughness" value="0.000000"/>
@@ -3240,7 +3482,7 @@
         <pref name="map_Objects_Object" value="lib/airport/Common_Elements/Fueling_Stations/2_horiz_tanks.agp"/>
         <pref name="map_Objects_Show with" value="558"/>
         <pref name="map_Polygons_Heading" value="0.000000"/>
-        <pref name="map_Polygons_Resource" value="lib/g8/pol/barren_tundra_flat.pol"/>
+        <pref name="map_Polygons_Resource" value="lib/g10/terrain10/grass_rainforest_fl_tp.pol"/>
         <pref name="map_Polygons_Use Texture Map - Orthophoto" value="0"/>
         <pref name="map_Ramp Start_Airlines" value=""/>
         <pref name="map_Ramp Start_Equipment Type" value="130,131,132"/>
@@ -3264,8 +3506,8 @@
         <pref name="map_Strings_Resource" value="lib/airport/lights/slow/102_edge_twy_B.str"/>
         <pref name="map_Strings_Spacing" value="5.000000"/>
         <pref name="map_Taxi Routes_Allowed Vehicles" value="144"/>
-        <pref name="map_Taxi Routes_Arrival" value="220,292"/>
-        <pref name="map_Taxi Routes_Departure" value="220,292"/>
+        <pref name="map_Taxi Routes_Arrival" value="192,264"/>
+        <pref name="map_Taxi Routes_Departure" value="192,264"/>
         <pref name="map_Taxi Routes_ILS" value=""/>
         <pref name="map_Taxi Routes_Name" value="C"/>
         <pref name="map_Taxi Routes_Oneway" value="0"/>
@@ -3287,13 +3529,13 @@
         <pref name="map_Truck Parking_Truck Type" value="156"/>
         <pref name="map_Vertex_Snap To Vertices" value="1"/>
         <pref name="map_Windsock_Lit" value="0"/>
-        <pref name="window/height" value="0"/>
-        <pref name="window/main_split" value="374"/>
-        <pref name="window/main_split2" value="988"/>
-        <pref name="window/prev_split" value="221"/>
-        <pref name="window/prop_split" value="546"/>
-        <pref name="window/width" value="0"/>
-        <pref name="window/x_loc" value="-32000"/>
-        <pref name="window/y_loc" value="-32000"/>
+        <pref name="window/height" value="827"/>
+        <pref name="window/main_split" value="298"/>
+        <pref name="window/main_split2" value="1144"/>
+        <pref name="window/prev_split" value="241"/>
+        <pref name="window/prop_split" value="476"/>
+        <pref name="window/width" value="1440"/>
+        <pref name="window/x_loc" value="-1448"/>
+        <pref name="window/y_loc" value="168"/>
     </prefs>
 </doc>
