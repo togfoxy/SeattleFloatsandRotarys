@@ -33,7 +33,7 @@
             <children/>
             <hierarchy name="selection"/>
             <selection>
-                <sel id="389"/>
+                <sel id="782"/>
             </selection>
         </object>
         <object class="WED_TextureNode" id="514" parent_id="510">
@@ -161,6 +161,20 @@
             <sources/>
             <viewers/>
             <children>
+                <child id="782"/>
+                <child id="777"/>
+                <child id="781"/>
+                <child id="780"/>
+                <child id="779"/>
+                <child id="778"/>
+                <child id="776"/>
+                <child id="775"/>
+                <child id="774"/>
+                <child id="773"/>
+                <child id="772"/>
+                <child id="771"/>
+                <child id="770"/>
+                <child id="767"/>
                 <child id="5"/>
                 <child id="21"/>
             </children>
@@ -256,6 +270,7 @@
             <sources/>
             <viewers/>
             <children>
+                <child id="766"/>
                 <child id="389"/>
                 <child id="395"/>
                 <child id="401"/>
@@ -3432,6 +3447,126 @@
             <point heading="44.40" latitude="47.636412278" length="18.6" longitude="-122.329168392" width="19.6"/>
             <helipad lights="Yellow" markings="Default" roughness="0.00" shoulder="None" surface="Concrete"/>
         </object>
+        <object class="WED_ObjPlacement" id="766" parent_id="21">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="JB_Quai06.obj"/>
+            <point heading="-1.90" latitude="47.635356133" longitude="-122.328429419"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="JB_LibrarySFR/JB_Objects/JB_Quai06.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="767" parent_id="4">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="JB_Quai06.obj"/>
+            <point heading="178.73" latitude="47.636050579" longitude="-122.329584074"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="JB_LibrarySFR/JB_Objects/JB_Quai06.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="770" parent_id="4">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="JB_Quai09.obj"/>
+            <point heading="309.17" latitude="47.632007826" longitude="-122.327721225"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="JB_LibrarySFR/JB_Objects/JB_Quai09.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="771" parent_id="4">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="JB_Quai09.obj"/>
+            <point heading="-45.09" latitude="47.632128415" longitude="-122.327943020"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="JB_LibrarySFR/JB_Objects/JB_Quai09.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="772" parent_id="4">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="JB_Quai09.obj"/>
+            <point heading="307.61" latitude="47.632068870" longitude="-122.327831404"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="JB_LibrarySFR/JB_Objects/JB_Quai09.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="773" parent_id="4">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="JB_Quai09.obj"/>
+            <point heading="-49.73" latitude="47.632195874" longitude="-122.328043655"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="JB_LibrarySFR/JB_Objects/JB_Quai09.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="774" parent_id="4">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="JB_Quai09.obj"/>
+            <point heading="309.56" latitude="47.632258670" longitude="-122.328151785"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="JB_LibrarySFR/JB_Objects/JB_Quai09.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="775" parent_id="4">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="JB_Quai09.obj"/>
+            <point heading="306.59" latitude="47.632319775" longitude="-122.328260109"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="JB_LibrarySFR/JB_Objects/JB_Quai09.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="776" parent_id="4">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="JB_Quai09.obj"/>
+            <point heading="-50.59" latitude="47.632376262" longitude="-122.328372242"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="JB_LibrarySFR/JB_Objects/JB_Quai09.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="777" parent_id="4">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="JB_Quai09.obj"/>
+            <point heading="317.53" latitude="47.632557917" longitude="-122.328683294"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="JB_LibrarySFR/JB_Objects/JB_Quai09.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="778" parent_id="4">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="JB_Quai10.obj"/>
+            <point heading="39.20" latitude="47.632926100" longitude="-122.328046124"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="JB_LibrarySFR/JB_Objects/JB_Quai10.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="779" parent_id="4">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="JB_Quai12.obj"/>
+            <point heading="-46.04" latitude="47.631262554" longitude="-122.329711424"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="JB_LibrarySFR/JB_Objects/JB_Quai12.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="780" parent_id="4">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="JB_Quai14.obj"/>
+            <point heading="129.02" latitude="47.630584074" longitude="-122.329999843"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="JB_LibrarySFR/JB_Objects/JB_Quai14.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="781" parent_id="4">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="JB_Quai17.obj"/>
+            <point heading="179.51" latitude="47.632794247" longitude="-122.328040180"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="JB_LibrarySFR/JB_Objects/JB_Quai17.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="782" parent_id="4">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="JB_Quai17.obj"/>
+            <point heading="180.26" latitude="47.632794615" longitude="-122.327785455"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="JB_LibrarySFR/JB_Objects/JB_Quai17.obj" show_level="1 Default"/>
+        </object>
     </objects>
     <prefs>
         <pref name="PropertyPane0/Closed">
@@ -3440,15 +3575,15 @@
         </pref>
         <pref name="doc/export_target" value="4"/>
         <pref name="doc/use_feet" value="1"/>
-        <pref name="map/east" value="-122.324737"/>
-        <pref name="map/north" value="47.642366"/>
+        <pref name="map/east" value="-122.324323"/>
+        <pref name="map/north" value="47.636515"/>
         <pref name="map/obj_density" value="6"/>
         <pref name="map/pavement_alpha" value="1"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-        <pref name="map/south" value="47.629464"/>
+        <pref name="map/south" value="47.632805"/>
         <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="-122.341774"/>
+        <pref name="map/west" value="-122.329223"/>
         <pref name="map/world_map_vis" value="0"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
@@ -3470,7 +3605,7 @@
         <pref name="map_Light Fixture_Approach Angle" value="3.000000"/>
         <pref name="map_Light Fixture_Fixture Type" value="35"/>
         <pref name="map_Lines_Resource" value="CDB-Library/Airport/paviment/dashed_line.lin"/>
-        <pref name="map_Objects_Object" value="lib/airport/beacons/beacon_seaport.obj"/>
+        <pref name="map_Objects_Object" value="JB_LibrarySFR/JB_Objects/JB_Radeau01.obj"/>
         <pref name="map_Objects_Show with" value="558"/>
         <pref name="map_Polygons_Heading" value="0.000000"/>
         <pref name="map_Polygons_Resource" value="lib/g10/terrain10/orch_hot_rain_sflat.pol"/>
@@ -3523,8 +3658,8 @@
         <pref name="window/height" value="827"/>
         <pref name="window/main_split" value="310"/>
         <pref name="window/main_split2" value="1110"/>
-        <pref name="window/prev_split" value="197"/>
-        <pref name="window/prop_split" value="504"/>
+        <pref name="window/prev_split" value="207"/>
+        <pref name="window/prop_split" value="514"/>
         <pref name="window/width" value="1440"/>
         <pref name="window/x_loc" value="-1448"/>
         <pref name="window/y_loc" value="168"/>

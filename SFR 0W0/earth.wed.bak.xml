@@ -33,7 +33,7 @@
             <children/>
             <hierarchy name="selection"/>
             <selection>
-                <sel id="18"/>
+                <sel id="389"/>
             </selection>
         </object>
         <object class="WED_TextureNode" id="514" parent_id="510">
@@ -112,9 +112,7 @@
             <sources/>
             <viewers/>
             <children>
-                <child id="750"/>
                 <child id="382"/>
-                <child id="384"/>
                 <child id="18"/>
             </children>
             <hierarchy hidden="0" locked="0" name="Runways"/>
@@ -164,6 +162,7 @@
             <viewers/>
             <children>
                 <child id="5"/>
+                <child id="21"/>
             </children>
             <hierarchy hidden="0" locked="0" name="world"/>
         </object>
@@ -191,7 +190,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="unnamed entity"/>
-            <point latitude="47.632726527" longitude="-122.332987515"/>
+            <point latitude="47.636058084" longitude="-122.332946658"/>
         </object>
         <object class="WED_TextureNode" id="532" parent_id="528">
             <sources/>
@@ -213,11 +212,12 @@
             <sources/>
             <viewers/>
             <children>
+                <child id="384"/>
+                <child id="750"/>
                 <child id="757"/>
                 <child id="756"/>
                 <child id="764"/>
                 <child id="11"/>
-                <child id="21"/>
             </children>
             <hierarchy hidden="0" locked="0" name="[S] Seattle Seaplanes"/>
             <airport always_flatten="0" drive_on_left="0" elevation="4.3" has_atc="0" icao="0W0" kind="Seaport" scenery_id="-1"/>
@@ -252,7 +252,7 @@
             <hierarchy hidden="0" locked="0" name="02123003020222220"/>
             <overlay_image alpha="1.0" file_path="..\..\..\..\..\..\..\Users\Dad\wedbing\tempfilestore\02123003020222220.jpg"/>
         </object>
-        <object class="WED_Group" id="21" parent_id="5">
+        <object class="WED_Group" id="21" parent_id="4">
             <sources/>
             <viewers/>
             <children>
@@ -356,7 +356,7 @@
             <hierarchy hidden="0" locked="0" name="Airport Boundary 1 Outer Ring"/>
             <airport_chain closed="1"/>
         </object>
-        <object class="WED_AirportBoundary" id="384" parent_id="11">
+        <object class="WED_AirportBoundary" id="384" parent_id="5">
             <sources/>
             <viewers/>
             <children>
@@ -3359,7 +3359,7 @@
             <hierarchy hidden="0" locked="0" name="Taxiway 2 Outer Ring"/>
             <airport_chain closed="1"/>
         </object>
-        <object class="WED_Taxiway" id="750" parent_id="11">
+        <object class="WED_Taxiway" id="750" parent_id="5">
             <sources/>
             <viewers/>
             <children>
@@ -3435,19 +3435,20 @@
     </objects>
     <prefs>
         <pref name="PropertyPane0/Closed">
+            <item value="5"/>
             <item value="21"/>
         </pref>
-        <pref name="doc/export_target" value="5"/>
+        <pref name="doc/export_target" value="4"/>
         <pref name="doc/use_feet" value="1"/>
-        <pref name="map/east" value="-122.317067"/>
-        <pref name="map/north" value="47.644852"/>
+        <pref name="map/east" value="-122.324737"/>
+        <pref name="map/north" value="47.642366"/>
         <pref name="map/obj_density" value="6"/>
         <pref name="map/pavement_alpha" value="1"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-        <pref name="map/south" value="47.626821"/>
+        <pref name="map/south" value="47.629464"/>
         <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="-122.340875"/>
+        <pref name="map/west" value="-122.341774"/>
         <pref name="map/world_map_vis" value="0"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
@@ -3522,8 +3523,8 @@
         <pref name="window/height" value="827"/>
         <pref name="window/main_split" value="310"/>
         <pref name="window/main_split2" value="1110"/>
-        <pref name="window/prev_split" value="187"/>
-        <pref name="window/prop_split" value="494"/>
+        <pref name="window/prev_split" value="197"/>
+        <pref name="window/prop_split" value="504"/>
         <pref name="window/width" value="1440"/>
         <pref name="window/x_loc" value="-1448"/>
         <pref name="window/y_loc" value="168"/>
