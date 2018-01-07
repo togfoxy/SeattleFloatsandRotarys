@@ -1,0 +1,22 @@
+A
+800
+LIBRARY
+
+EXPORT JB_LibrarySFR/JB_Objects/JB_Quai01.obj 		JB_Objects/JB_Quai01.obj
+EXPORT JB_LibrarySFR/JB_Objects/JB_Quai05.obj 		JB_Objects/JB_Quai05.obj
+EXPORT JB_LibrarySFR/JB_Objects/JB_Quai06.obj 		JB_Objects/JB_Quai06.obj
+EXPORT JB_LibrarySFR/JB_Objects/JB_Quai07.obj 		JB_Objects/JB_Quai07.obj
+EXPORT JB_LibrarySFR/JB_Objects/JB_Quai08.obj 		JB_Objects/JB_Quai08.obj
+EXPORT JB_LibrarySFR/JB_Objects/JB_Quai09.obj 		JB_Objects/JB_Quai09.obj
+EXPORT JB_LibrarySFR/JB_Objects/JB_Quai10.obj 		JB_Objects/JB_Quai10.obj
+EXPORT JB_LibrarySFR/JB_Objects/JB_Quai11.obj 		JB_Objects/JB_Quai11.obj
+EXPORT JB_LibrarySFR/JB_Objects/JB_Quai12.obj 		JB_Objects/JB_Quai12.obj
+EXPORT JB_LibrarySFR/JB_Objects/JB_Quai13.obj 		JB_Objects/JB_Quai13.obj
+EXPORT JB_LibrarySFR/JB_Objects/JB_Quai14.obj 		JB_Objects/JB_Quai14.obj
+EXPORT JB_LibrarySFR/JB_Objects/JB_Quai15.obj 		JB_Objects/JB_Quai15.obj
+EXPORT JB_LibrarySFR/JB_Objects/JB_Quai16.obj 		JB_Objects/JB_Quai16.obj
+EXPORT JB_LibrarySFR/JB_Objects/JB_Quai17.obj 		JB_Objects/JB_Quai17.obj
+EXPORT JB_LibrarySFR/JB_Objects/JB_Quai18.obj 		JB_Objects/JB_Quai18.obj
+EXPORT JB_LibrarySFR/JB_Objects/JB_Quai20.obj 		JB_Objects/JB_Quai20.obj
+EXPORT JB_LibrarySFR/JB_Objects/JB_Quai21.obj 		JB_Objects/JB_Quai21.obj
+EXPORT JB_LibrarySFR/JB_Objects/JB_Radeau01.obj 	JB_Objects/JB_Radeau01.obj
