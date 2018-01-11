@@ -1,0 +1,2294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+    <objects>
+        <object class="WED_Root" id="1" parent_id="0">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="2"/>
+                <child id="3"/>
+                <child id="4"/>
+            </children>
+            <hierarchy name="root"/>
+        </object>
+        <object class="WED_Ring" id="65" parent_id="64">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="66"/>
+                <child id="67"/>
+                <child id="68"/>
+                <child id="69"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
+        </object>
+        <object class="WED_Select" id="2" parent_id="1">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy name="selection"/>
+            <selection>
+                <sel id="18"/>
+            </selection>
+        </object>
+        <object class="WED_TextureNode" id="66" parent_id="65">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 4"/>
+            <point latitude="48.534794000" longitude="-123.013916000"/>
+            <texture_node s="0.0000" t="0.0000"/>
+        </object>
+        <object class="WED_Sealane" id="18" parent_id="11">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="19"/>
+                <child id="20"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="15/33"/>
+            <line width="30.82"/>
+            <sealane has_buoys="0"/>
+        </object>
+        <object class="WED_KeyObjects" id="3" parent_id="1">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy name="choices"/>
+            <keys>
+                <key id="5" name="airport"/>
+            </keys>
+        </object>
+        <object class="WED_TextureNode" id="67" parent_id="65">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.534794000" longitude="-123.011169000"/>
+            <texture_node s="1.0000" t="0.0000"/>
+        </object>
+        <object class="WED_Group" id="11" parent_id="5">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="232"/>
+                <child id="18"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Runways"/>
+        </object>
+        <object class="WED_TextureNode" id="75" parent_id="71">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.534794000" longitude="-123.013916000"/>
+            <texture_node s="0.0000" t="1.0000"/>
+        </object>
+        <object class="WED_RunwayNode" id="19" parent_id="18">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.539389816" longitude="-123.011336671"/>
+        </object>
+        <object class="WED_Group" id="4" parent_id="1">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="5"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="world"/>
+        </object>
+        <object class="WED_TextureNode" id="68" parent_id="65">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.536613000" longitude="-123.011169000"/>
+            <texture_node s="1.0000" t="1.0000"/>
+        </object>
+        <object class="WED_RunwayNode" id="20" parent_id="18">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.537174705" longitude="-123.009453260"/>
+        </object>
+        <object class="WED_Airport" id="5" parent_id="4">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="263"/>
+                <child id="264"/>
+                <child id="11"/>
+                <child id="21"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Friday Harbor (DUP|KFHR)"/>
+            <airport always_flatten="0" drive_on_left="0" elevation="0.0" has_atc="0" icao="W33" kind="Seaport" scenery_id="-1"/>
+            <meta_data/>
+        </object>
+        <object class="WED_TextureNode" id="69" parent_id="65">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.536613000" longitude="-123.013916000"/>
+            <texture_node s="0.0000" t="1.0000"/>
+        </object>
+        <object class="WED_Group" id="21" parent_id="5">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="22"/>
+                <child id="28"/>
+                <child id="34"/>
+                <child id="40"/>
+                <child id="46"/>
+                <child id="52"/>
+                <child id="58"/>
+                <child id="64"/>
+                <child id="70"/>
+                <child id="76"/>
+                <child id="82"/>
+                <child id="88"/>
+                <child id="94"/>
+                <child id="100"/>
+                <child id="106"/>
+                <child id="112"/>
+                <child id="118"/>
+                <child id="124"/>
+                <child id="130"/>
+                <child id="136"/>
+                <child id="142"/>
+                <child id="148"/>
+                <child id="154"/>
+                <child id="160"/>
+                <child id="166"/>
+                <child id="172"/>
+                <child id="178"/>
+                <child id="184"/>
+                <child id="190"/>
+                <child id="196"/>
+                <child id="202"/>
+                <child id="208"/>
+                <child id="214"/>
+                <child id="220"/>
+                <child id="226"/>
+            </children>
+            <hierarchy hidden="0" locked="1" name="Overlays-Wedbing"/>
+        </object>
+        <object class="WED_OverlayImage" id="22" parent_id="21">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="23"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="02123000122021033"/>
+            <overlay_image alpha="1.0" file_path="..\..\..\..\..\..\..\Users\Dad\wedbing\tempfilestore\02123000122021033.jpg"/>
+        </object>
+        <object class="WED_Ring" id="23" parent_id="22">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="24"/>
+                <child id="25"/>
+                <child id="26"/>
+                <child id="27"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
+        </object>
+        <object class="WED_TextureNode" id="24" parent_id="23">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 4"/>
+            <point latitude="48.538431000" longitude="-123.016662000"/>
+            <texture_node s="0.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="25" parent_id="23">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.538431000" longitude="-123.013916000"/>
+            <texture_node s="1.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="26" parent_id="23">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.540250000" longitude="-123.013916000"/>
+            <texture_node s="1.0000" t="1.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="27" parent_id="23">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.540250000" longitude="-123.016662000"/>
+            <texture_node s="0.0000" t="1.0000"/>
+        </object>
+        <object class="WED_OverlayImage" id="28" parent_id="21">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="29"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="02123000122021211"/>
+            <overlay_image alpha="1.0" file_path="..\..\..\..\..\..\..\Users\Dad\wedbing\tempfilestore\02123000122021211.jpg"/>
+        </object>
+        <object class="WED_Ring" id="29" parent_id="28">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="30"/>
+                <child id="31"/>
+                <child id="32"/>
+                <child id="33"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
+        </object>
+        <object class="WED_TextureNode" id="30" parent_id="29">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 4"/>
+            <point latitude="48.536613000" longitude="-123.016662000"/>
+            <texture_node s="0.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="31" parent_id="29">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.536613000" longitude="-123.013916000"/>
+            <texture_node s="1.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="32" parent_id="29">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.538431000" longitude="-123.013916000"/>
+            <texture_node s="1.0000" t="1.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="33" parent_id="29">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.538431000" longitude="-123.016662000"/>
+            <texture_node s="0.0000" t="1.0000"/>
+        </object>
+        <object class="WED_OverlayImage" id="34" parent_id="21">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="35"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="02123000122021213"/>
+            <overlay_image alpha="1.0" file_path="..\..\..\..\..\..\..\Users\Dad\wedbing\tempfilestore\02123000122021213.jpg"/>
+        </object>
+        <object class="WED_Ring" id="35" parent_id="34">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="36"/>
+                <child id="37"/>
+                <child id="38"/>
+                <child id="39"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
+        </object>
+        <object class="WED_TextureNode" id="36" parent_id="35">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 4"/>
+            <point latitude="48.534794000" longitude="-123.016662000"/>
+            <texture_node s="0.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="37" parent_id="35">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.534794000" longitude="-123.013916000"/>
+            <texture_node s="1.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="38" parent_id="35">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.536613000" longitude="-123.013916000"/>
+            <texture_node s="1.0000" t="1.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="39" parent_id="35">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.536613000" longitude="-123.016662000"/>
+            <texture_node s="0.0000" t="1.0000"/>
+        </object>
+        <object class="WED_OverlayImage" id="40" parent_id="21">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="41"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="02123000122021231"/>
+            <overlay_image alpha="1.0" file_path="..\..\..\..\..\..\..\Users\Dad\wedbing\tempfilestore\02123000122021231.jpg"/>
+        </object>
+        <object class="WED_Ring" id="41" parent_id="40">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="42"/>
+                <child id="43"/>
+                <child id="44"/>
+                <child id="45"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
+        </object>
+        <object class="WED_TextureNode" id="42" parent_id="41">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 4"/>
+            <point latitude="48.532975000" longitude="-123.016662000"/>
+            <texture_node s="0.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="43" parent_id="41">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.532975000" longitude="-123.013916000"/>
+            <texture_node s="1.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="44" parent_id="41">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.534794000" longitude="-123.013916000"/>
+            <texture_node s="1.0000" t="1.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="45" parent_id="41">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.534794000" longitude="-123.016662000"/>
+            <texture_node s="0.0000" t="1.0000"/>
+        </object>
+        <object class="WED_OverlayImage" id="46" parent_id="21">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="47"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="02123000122021233"/>
+            <overlay_image alpha="1.0" file_path="..\..\..\..\..\..\..\Users\Dad\wedbing\tempfilestore\02123000122021233.jpg"/>
+        </object>
+        <object class="WED_Ring" id="47" parent_id="46">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="48"/>
+                <child id="49"/>
+                <child id="50"/>
+                <child id="51"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
+        </object>
+        <object class="WED_TextureNode" id="48" parent_id="47">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 4"/>
+            <point latitude="48.531157000" longitude="-123.016662000"/>
+            <texture_node s="0.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="49" parent_id="47">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.531157000" longitude="-123.013916000"/>
+            <texture_node s="1.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="50" parent_id="47">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.532975000" longitude="-123.013916000"/>
+            <texture_node s="1.0000" t="1.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="51" parent_id="47">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.532975000" longitude="-123.016662000"/>
+            <texture_node s="0.0000" t="1.0000"/>
+        </object>
+        <object class="WED_OverlayImage" id="52" parent_id="21">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="53"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="02123000122021122"/>
+            <overlay_image alpha="1.0" file_path="..\..\..\..\..\..\..\Users\Dad\wedbing\tempfilestore\02123000122021122.jpg"/>
+        </object>
+        <object class="WED_Ring" id="53" parent_id="52">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="54"/>
+                <child id="55"/>
+                <child id="56"/>
+                <child id="57"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
+        </object>
+        <object class="WED_TextureNode" id="54" parent_id="53">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 4"/>
+            <point latitude="48.538431000" longitude="-123.013916000"/>
+            <texture_node s="0.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="55" parent_id="53">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.538431000" longitude="-123.011169000"/>
+            <texture_node s="1.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="56" parent_id="53">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.540250000" longitude="-123.011169000"/>
+            <texture_node s="1.0000" t="1.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="57" parent_id="53">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.540250000" longitude="-123.013916000"/>
+            <texture_node s="0.0000" t="1.0000"/>
+        </object>
+        <object class="WED_OverlayImage" id="58" parent_id="21">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="59"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="02123000122021300"/>
+            <overlay_image alpha="1.0" file_path="..\..\..\..\..\..\..\Users\Dad\wedbing\tempfilestore\02123000122021300.jpg"/>
+        </object>
+        <object class="WED_Ring" id="59" parent_id="58">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="60"/>
+                <child id="61"/>
+                <child id="62"/>
+                <child id="63"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
+        </object>
+        <object class="WED_TextureNode" id="60" parent_id="59">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 4"/>
+            <point latitude="48.536613000" longitude="-123.013916000"/>
+            <texture_node s="0.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="61" parent_id="59">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.536613000" longitude="-123.011169000"/>
+            <texture_node s="1.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="62" parent_id="59">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.538431000" longitude="-123.011169000"/>
+            <texture_node s="1.0000" t="1.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="63" parent_id="59">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.538431000" longitude="-123.013916000"/>
+            <texture_node s="0.0000" t="1.0000"/>
+        </object>
+        <object class="WED_OverlayImage" id="64" parent_id="21">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="65"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="02123000122021302"/>
+            <overlay_image alpha="1.0" file_path="..\..\..\..\..\..\..\Users\Dad\wedbing\tempfilestore\02123000122021302.jpg"/>
+        </object>
+        <object class="WED_OverlayImage" id="70" parent_id="21">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="71"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="02123000122021320"/>
+            <overlay_image alpha="1.0" file_path="..\..\..\..\..\..\..\Users\Dad\wedbing\tempfilestore\02123000122021320.jpg"/>
+        </object>
+        <object class="WED_Ring" id="71" parent_id="70">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="72"/>
+                <child id="73"/>
+                <child id="74"/>
+                <child id="75"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
+        </object>
+        <object class="WED_TextureNode" id="72" parent_id="71">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 4"/>
+            <point latitude="48.532975000" longitude="-123.013916000"/>
+            <texture_node s="0.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="73" parent_id="71">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.532975000" longitude="-123.011169000"/>
+            <texture_node s="1.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="74" parent_id="71">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.534794000" longitude="-123.011169000"/>
+            <texture_node s="1.0000" t="1.0000"/>
+        </object>
+        <object class="WED_OverlayImage" id="76" parent_id="21">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="77"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="02123000122021322"/>
+            <overlay_image alpha="1.0" file_path="..\..\..\..\..\..\..\Users\Dad\wedbing\tempfilestore\02123000122021322.jpg"/>
+        </object>
+        <object class="WED_Ring" id="77" parent_id="76">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="78"/>
+                <child id="79"/>
+                <child id="80"/>
+                <child id="81"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
+        </object>
+        <object class="WED_TextureNode" id="78" parent_id="77">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 4"/>
+            <point latitude="48.531157000" longitude="-123.013916000"/>
+            <texture_node s="0.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="79" parent_id="77">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.531157000" longitude="-123.011169000"/>
+            <texture_node s="1.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="80" parent_id="77">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.532975000" longitude="-123.011169000"/>
+            <texture_node s="1.0000" t="1.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="81" parent_id="77">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.532975000" longitude="-123.013916000"/>
+            <texture_node s="0.0000" t="1.0000"/>
+        </object>
+        <object class="WED_OverlayImage" id="82" parent_id="21">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="83"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="02123000122021123"/>
+            <overlay_image alpha="1.0" file_path="..\..\..\..\..\..\..\Users\Dad\wedbing\tempfilestore\02123000122021123.jpg"/>
+        </object>
+        <object class="WED_Ring" id="83" parent_id="82">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="84"/>
+                <child id="85"/>
+                <child id="86"/>
+                <child id="87"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
+        </object>
+        <object class="WED_TextureNode" id="84" parent_id="83">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 4"/>
+            <point latitude="48.538431000" longitude="-123.011169000"/>
+            <texture_node s="0.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="85" parent_id="83">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.538431000" longitude="-123.008422000"/>
+            <texture_node s="1.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="86" parent_id="83">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.540250000" longitude="-123.008422000"/>
+            <texture_node s="1.0000" t="1.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="87" parent_id="83">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.540250000" longitude="-123.011169000"/>
+            <texture_node s="0.0000" t="1.0000"/>
+        </object>
+        <object class="WED_OverlayImage" id="88" parent_id="21">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="89"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="02123000122021301"/>
+            <overlay_image alpha="1.0" file_path="..\..\..\..\..\..\..\Users\Dad\wedbing\tempfilestore\02123000122021301.jpg"/>
+        </object>
+        <object class="WED_Ring" id="89" parent_id="88">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="90"/>
+                <child id="91"/>
+                <child id="92"/>
+                <child id="93"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
+        </object>
+        <object class="WED_TextureNode" id="90" parent_id="89">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 4"/>
+            <point latitude="48.536613000" longitude="-123.011169000"/>
+            <texture_node s="0.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="91" parent_id="89">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.536613000" longitude="-123.008422000"/>
+            <texture_node s="1.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="92" parent_id="89">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.538431000" longitude="-123.008422000"/>
+            <texture_node s="1.0000" t="1.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="93" parent_id="89">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.538431000" longitude="-123.011169000"/>
+            <texture_node s="0.0000" t="1.0000"/>
+        </object>
+        <object class="WED_OverlayImage" id="94" parent_id="21">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="95"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="02123000122021303"/>
+            <overlay_image alpha="1.0" file_path="..\..\..\..\..\..\..\Users\Dad\wedbing\tempfilestore\02123000122021303.jpg"/>
+        </object>
+        <object class="WED_Ring" id="95" parent_id="94">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="96"/>
+                <child id="97"/>
+                <child id="98"/>
+                <child id="99"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
+        </object>
+        <object class="WED_TextureNode" id="96" parent_id="95">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 4"/>
+            <point latitude="48.534794000" longitude="-123.011169000"/>
+            <texture_node s="0.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="97" parent_id="95">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.534794000" longitude="-123.008422000"/>
+            <texture_node s="1.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="98" parent_id="95">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.536613000" longitude="-123.008422000"/>
+            <texture_node s="1.0000" t="1.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="99" parent_id="95">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.536613000" longitude="-123.011169000"/>
+            <texture_node s="0.0000" t="1.0000"/>
+        </object>
+        <object class="WED_OverlayImage" id="100" parent_id="21">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="101"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="02123000122021321"/>
+            <overlay_image alpha="1.0" file_path="..\..\..\..\..\..\..\Users\Dad\wedbing\tempfilestore\02123000122021321.jpg"/>
+        </object>
+        <object class="WED_Ring" id="101" parent_id="100">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="102"/>
+                <child id="103"/>
+                <child id="104"/>
+                <child id="105"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
+        </object>
+        <object class="WED_TextureNode" id="102" parent_id="101">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 4"/>
+            <point latitude="48.532975000" longitude="-123.011169000"/>
+            <texture_node s="0.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="103" parent_id="101">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.532975000" longitude="-123.008422000"/>
+            <texture_node s="1.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="104" parent_id="101">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.534794000" longitude="-123.008422000"/>
+            <texture_node s="1.0000" t="1.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="105" parent_id="101">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.534794000" longitude="-123.011169000"/>
+            <texture_node s="0.0000" t="1.0000"/>
+        </object>
+        <object class="WED_OverlayImage" id="106" parent_id="21">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="107"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="02123000122021323"/>
+            <overlay_image alpha="1.0" file_path="..\..\..\..\..\..\..\Users\Dad\wedbing\tempfilestore\02123000122021323.jpg"/>
+        </object>
+        <object class="WED_Ring" id="107" parent_id="106">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="108"/>
+                <child id="109"/>
+                <child id="110"/>
+                <child id="111"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
+        </object>
+        <object class="WED_TextureNode" id="108" parent_id="107">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 4"/>
+            <point latitude="48.531157000" longitude="-123.011169000"/>
+            <texture_node s="0.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="109" parent_id="107">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.531157000" longitude="-123.008422000"/>
+            <texture_node s="1.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="110" parent_id="107">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.532975000" longitude="-123.008422000"/>
+            <texture_node s="1.0000" t="1.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="111" parent_id="107">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.532975000" longitude="-123.011169000"/>
+            <texture_node s="0.0000" t="1.0000"/>
+        </object>
+        <object class="WED_OverlayImage" id="112" parent_id="21">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="113"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="02123000122021132"/>
+            <overlay_image alpha="1.0" file_path="..\..\..\..\..\..\..\Users\Dad\wedbing\tempfilestore\02123000122021132.jpg"/>
+        </object>
+        <object class="WED_Ring" id="113" parent_id="112">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="114"/>
+                <child id="115"/>
+                <child id="116"/>
+                <child id="117"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
+        </object>
+        <object class="WED_TextureNode" id="114" parent_id="113">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 4"/>
+            <point latitude="48.538431000" longitude="-123.008422000"/>
+            <texture_node s="0.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="115" parent_id="113">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.538431000" longitude="-123.005676000"/>
+            <texture_node s="1.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="116" parent_id="113">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.540250000" longitude="-123.005676000"/>
+            <texture_node s="1.0000" t="1.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="117" parent_id="113">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.540250000" longitude="-123.008422000"/>
+            <texture_node s="0.0000" t="1.0000"/>
+        </object>
+        <object class="WED_OverlayImage" id="118" parent_id="21">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="119"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="02123000122021310"/>
+            <overlay_image alpha="1.0" file_path="..\..\..\..\..\..\..\Users\Dad\wedbing\tempfilestore\02123000122021310.jpg"/>
+        </object>
+        <object class="WED_Ring" id="119" parent_id="118">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="120"/>
+                <child id="121"/>
+                <child id="122"/>
+                <child id="123"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
+        </object>
+        <object class="WED_TextureNode" id="120" parent_id="119">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 4"/>
+            <point latitude="48.536613000" longitude="-123.008422000"/>
+            <texture_node s="0.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="121" parent_id="119">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.536613000" longitude="-123.005676000"/>
+            <texture_node s="1.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="122" parent_id="119">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.538431000" longitude="-123.005676000"/>
+            <texture_node s="1.0000" t="1.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="123" parent_id="119">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.538431000" longitude="-123.008422000"/>
+            <texture_node s="0.0000" t="1.0000"/>
+        </object>
+        <object class="WED_OverlayImage" id="124" parent_id="21">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="125"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="02123000122021312"/>
+            <overlay_image alpha="1.0" file_path="..\..\..\..\..\..\..\Users\Dad\wedbing\tempfilestore\02123000122021312.jpg"/>
+        </object>
+        <object class="WED_Ring" id="125" parent_id="124">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="126"/>
+                <child id="127"/>
+                <child id="128"/>
+                <child id="129"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
+        </object>
+        <object class="WED_TextureNode" id="126" parent_id="125">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 4"/>
+            <point latitude="48.534794000" longitude="-123.008422000"/>
+            <texture_node s="0.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="127" parent_id="125">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.534794000" longitude="-123.005676000"/>
+            <texture_node s="1.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="128" parent_id="125">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.536613000" longitude="-123.005676000"/>
+            <texture_node s="1.0000" t="1.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="129" parent_id="125">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.536613000" longitude="-123.008422000"/>
+            <texture_node s="0.0000" t="1.0000"/>
+        </object>
+        <object class="WED_OverlayImage" id="130" parent_id="21">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="131"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="02123000122021330"/>
+            <overlay_image alpha="1.0" file_path="..\..\..\..\..\..\..\Users\Dad\wedbing\tempfilestore\02123000122021330.jpg"/>
+        </object>
+        <object class="WED_Ring" id="131" parent_id="130">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="132"/>
+                <child id="133"/>
+                <child id="134"/>
+                <child id="135"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
+        </object>
+        <object class="WED_TextureNode" id="132" parent_id="131">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 4"/>
+            <point latitude="48.532975000" longitude="-123.008422000"/>
+            <texture_node s="0.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="133" parent_id="131">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.532975000" longitude="-123.005676000"/>
+            <texture_node s="1.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="134" parent_id="131">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.534794000" longitude="-123.005676000"/>
+            <texture_node s="1.0000" t="1.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="135" parent_id="131">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.534794000" longitude="-123.008422000"/>
+            <texture_node s="0.0000" t="1.0000"/>
+        </object>
+        <object class="WED_OverlayImage" id="136" parent_id="21">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="137"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="02123000122021332"/>
+            <overlay_image alpha="1.0" file_path="..\..\..\..\..\..\..\Users\Dad\wedbing\tempfilestore\02123000122021332.jpg"/>
+        </object>
+        <object class="WED_Ring" id="137" parent_id="136">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="138"/>
+                <child id="139"/>
+                <child id="140"/>
+                <child id="141"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
+        </object>
+        <object class="WED_TextureNode" id="138" parent_id="137">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 4"/>
+            <point latitude="48.531157000" longitude="-123.008422000"/>
+            <texture_node s="0.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="139" parent_id="137">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.531157000" longitude="-123.005676000"/>
+            <texture_node s="1.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="140" parent_id="137">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.532975000" longitude="-123.005676000"/>
+            <texture_node s="1.0000" t="1.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="141" parent_id="137">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.532975000" longitude="-123.008422000"/>
+            <texture_node s="0.0000" t="1.0000"/>
+        </object>
+        <object class="WED_OverlayImage" id="142" parent_id="21">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="143"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="02123000122021133"/>
+            <overlay_image alpha="1.0" file_path="..\..\..\..\..\..\..\Users\Dad\wedbing\tempfilestore\02123000122021133.jpg"/>
+        </object>
+        <object class="WED_Ring" id="143" parent_id="142">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="144"/>
+                <child id="145"/>
+                <child id="146"/>
+                <child id="147"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
+        </object>
+        <object class="WED_TextureNode" id="144" parent_id="143">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 4"/>
+            <point latitude="48.538431000" longitude="-123.005676000"/>
+            <texture_node s="0.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="145" parent_id="143">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.538431000" longitude="-123.002929000"/>
+            <texture_node s="1.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="146" parent_id="143">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.540250000" longitude="-123.002929000"/>
+            <texture_node s="1.0000" t="1.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="147" parent_id="143">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.540250000" longitude="-123.005676000"/>
+            <texture_node s="0.0000" t="1.0000"/>
+        </object>
+        <object class="WED_OverlayImage" id="148" parent_id="21">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="149"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="02123000122021311"/>
+            <overlay_image alpha="1.0" file_path="..\..\..\..\..\..\..\Users\Dad\wedbing\tempfilestore\02123000122021311.jpg"/>
+        </object>
+        <object class="WED_Ring" id="149" parent_id="148">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="150"/>
+                <child id="151"/>
+                <child id="152"/>
+                <child id="153"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
+        </object>
+        <object class="WED_TextureNode" id="150" parent_id="149">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 4"/>
+            <point latitude="48.536613000" longitude="-123.005676000"/>
+            <texture_node s="0.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="151" parent_id="149">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.536613000" longitude="-123.002929000"/>
+            <texture_node s="1.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="152" parent_id="149">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.538431000" longitude="-123.002929000"/>
+            <texture_node s="1.0000" t="1.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="153" parent_id="149">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.538431000" longitude="-123.005676000"/>
+            <texture_node s="0.0000" t="1.0000"/>
+        </object>
+        <object class="WED_OverlayImage" id="154" parent_id="21">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="155"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="02123000122021313"/>
+            <overlay_image alpha="1.0" file_path="..\..\..\..\..\..\..\Users\Dad\wedbing\tempfilestore\02123000122021313.jpg"/>
+        </object>
+        <object class="WED_Ring" id="155" parent_id="154">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="156"/>
+                <child id="157"/>
+                <child id="158"/>
+                <child id="159"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
+        </object>
+        <object class="WED_TextureNode" id="156" parent_id="155">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 4"/>
+            <point latitude="48.534794000" longitude="-123.005676000"/>
+            <texture_node s="0.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="157" parent_id="155">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.534794000" longitude="-123.002929000"/>
+            <texture_node s="1.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="158" parent_id="155">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.536613000" longitude="-123.002929000"/>
+            <texture_node s="1.0000" t="1.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="159" parent_id="155">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.536613000" longitude="-123.005676000"/>
+            <texture_node s="0.0000" t="1.0000"/>
+        </object>
+        <object class="WED_OverlayImage" id="160" parent_id="21">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="161"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="02123000122021331"/>
+            <overlay_image alpha="1.0" file_path="..\..\..\..\..\..\..\Users\Dad\wedbing\tempfilestore\02123000122021331.jpg"/>
+        </object>
+        <object class="WED_Ring" id="161" parent_id="160">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="162"/>
+                <child id="163"/>
+                <child id="164"/>
+                <child id="165"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
+        </object>
+        <object class="WED_TextureNode" id="162" parent_id="161">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 4"/>
+            <point latitude="48.532975000" longitude="-123.005676000"/>
+            <texture_node s="0.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="163" parent_id="161">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.532975000" longitude="-123.002929000"/>
+            <texture_node s="1.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="164" parent_id="161">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.534794000" longitude="-123.002929000"/>
+            <texture_node s="1.0000" t="1.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="165" parent_id="161">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.534794000" longitude="-123.005676000"/>
+            <texture_node s="0.0000" t="1.0000"/>
+        </object>
+        <object class="WED_OverlayImage" id="166" parent_id="21">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="167"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="02123000122021333"/>
+            <overlay_image alpha="1.0" file_path="..\..\..\..\..\..\..\Users\Dad\wedbing\tempfilestore\02123000122021333.jpg"/>
+        </object>
+        <object class="WED_Ring" id="167" parent_id="166">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="168"/>
+                <child id="169"/>
+                <child id="170"/>
+                <child id="171"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
+        </object>
+        <object class="WED_TextureNode" id="168" parent_id="167">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 4"/>
+            <point latitude="48.531157000" longitude="-123.005676000"/>
+            <texture_node s="0.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="169" parent_id="167">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.531157000" longitude="-123.002929000"/>
+            <texture_node s="1.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="170" parent_id="167">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.532975000" longitude="-123.002929000"/>
+            <texture_node s="1.0000" t="1.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="171" parent_id="167">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.532975000" longitude="-123.005676000"/>
+            <texture_node s="0.0000" t="1.0000"/>
+        </object>
+        <object class="WED_OverlayImage" id="172" parent_id="21">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="173"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="02123000122030022"/>
+            <overlay_image alpha="1.0" file_path="..\..\..\..\..\..\..\Users\Dad\wedbing\tempfilestore\02123000122030022.jpg"/>
+        </object>
+        <object class="WED_Ring" id="173" parent_id="172">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="174"/>
+                <child id="175"/>
+                <child id="176"/>
+                <child id="177"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
+        </object>
+        <object class="WED_TextureNode" id="174" parent_id="173">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 4"/>
+            <point latitude="48.538431000" longitude="-123.002929000"/>
+            <texture_node s="0.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="175" parent_id="173">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.538431000" longitude="-123.000183000"/>
+            <texture_node s="1.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="176" parent_id="173">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.540250000" longitude="-123.000183000"/>
+            <texture_node s="1.0000" t="1.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="177" parent_id="173">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.540250000" longitude="-123.002929000"/>
+            <texture_node s="0.0000" t="1.0000"/>
+        </object>
+        <object class="WED_OverlayImage" id="178" parent_id="21">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="179"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="02123000122030200"/>
+            <overlay_image alpha="1.0" file_path="..\..\..\..\..\..\..\Users\Dad\wedbing\tempfilestore\02123000122030200.jpg"/>
+        </object>
+        <object class="WED_Ring" id="179" parent_id="178">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="180"/>
+                <child id="181"/>
+                <child id="182"/>
+                <child id="183"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
+        </object>
+        <object class="WED_TextureNode" id="180" parent_id="179">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 4"/>
+            <point latitude="48.536613000" longitude="-123.002929000"/>
+            <texture_node s="0.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="181" parent_id="179">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.536613000" longitude="-123.000183000"/>
+            <texture_node s="1.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="182" parent_id="179">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.538431000" longitude="-123.000183000"/>
+            <texture_node s="1.0000" t="1.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="183" parent_id="179">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.538431000" longitude="-123.002929000"/>
+            <texture_node s="0.0000" t="1.0000"/>
+        </object>
+        <object class="WED_OverlayImage" id="184" parent_id="21">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="185"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="02123000122030202"/>
+            <overlay_image alpha="1.0" file_path="..\..\..\..\..\..\..\Users\Dad\wedbing\tempfilestore\02123000122030202.jpg"/>
+        </object>
+        <object class="WED_Ring" id="185" parent_id="184">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="186"/>
+                <child id="187"/>
+                <child id="188"/>
+                <child id="189"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
+        </object>
+        <object class="WED_TextureNode" id="186" parent_id="185">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 4"/>
+            <point latitude="48.534794000" longitude="-123.002929000"/>
+            <texture_node s="0.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="187" parent_id="185">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.534794000" longitude="-123.000183000"/>
+            <texture_node s="1.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="188" parent_id="185">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.536613000" longitude="-123.000183000"/>
+            <texture_node s="1.0000" t="1.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="189" parent_id="185">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.536613000" longitude="-123.002929000"/>
+            <texture_node s="0.0000" t="1.0000"/>
+        </object>
+        <object class="WED_OverlayImage" id="190" parent_id="21">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="191"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="02123000122030220"/>
+            <overlay_image alpha="1.0" file_path="..\..\..\..\..\..\..\Users\Dad\wedbing\tempfilestore\02123000122030220.jpg"/>
+        </object>
+        <object class="WED_Ring" id="191" parent_id="190">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="192"/>
+                <child id="193"/>
+                <child id="194"/>
+                <child id="195"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
+        </object>
+        <object class="WED_TextureNode" id="192" parent_id="191">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 4"/>
+            <point latitude="48.532975000" longitude="-123.002929000"/>
+            <texture_node s="0.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="193" parent_id="191">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.532975000" longitude="-123.000183000"/>
+            <texture_node s="1.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="194" parent_id="191">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.534794000" longitude="-123.000183000"/>
+            <texture_node s="1.0000" t="1.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="195" parent_id="191">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.534794000" longitude="-123.002929000"/>
+            <texture_node s="0.0000" t="1.0000"/>
+        </object>
+        <object class="WED_OverlayImage" id="196" parent_id="21">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="197"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="02123000122030222"/>
+            <overlay_image alpha="1.0" file_path="..\..\..\..\..\..\..\Users\Dad\wedbing\tempfilestore\02123000122030222.jpg"/>
+        </object>
+        <object class="WED_Ring" id="197" parent_id="196">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="198"/>
+                <child id="199"/>
+                <child id="200"/>
+                <child id="201"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
+        </object>
+        <object class="WED_TextureNode" id="198" parent_id="197">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 4"/>
+            <point latitude="48.531157000" longitude="-123.002929000"/>
+            <texture_node s="0.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="199" parent_id="197">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.531157000" longitude="-123.000183000"/>
+            <texture_node s="1.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="200" parent_id="197">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.532975000" longitude="-123.000183000"/>
+            <texture_node s="1.0000" t="1.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="201" parent_id="197">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.532975000" longitude="-123.002929000"/>
+            <texture_node s="0.0000" t="1.0000"/>
+        </object>
+        <object class="WED_OverlayImage" id="202" parent_id="21">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="203"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="02123000122030023"/>
+            <overlay_image alpha="1.0" file_path="..\..\..\..\..\..\..\Users\Dad\wedbing\tempfilestore\02123000122030023.jpg"/>
+        </object>
+        <object class="WED_Ring" id="203" parent_id="202">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="204"/>
+                <child id="205"/>
+                <child id="206"/>
+                <child id="207"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
+        </object>
+        <object class="WED_TextureNode" id="204" parent_id="203">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 4"/>
+            <point latitude="48.538431000" longitude="-123.000183000"/>
+            <texture_node s="0.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="205" parent_id="203">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.538431000" longitude="-122.997436000"/>
+            <texture_node s="1.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="206" parent_id="203">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.540250000" longitude="-122.997436000"/>
+            <texture_node s="1.0000" t="1.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="207" parent_id="203">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.540250000" longitude="-123.000183000"/>
+            <texture_node s="0.0000" t="1.0000"/>
+        </object>
+        <object class="WED_OverlayImage" id="208" parent_id="21">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="209"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="02123000122030201"/>
+            <overlay_image alpha="1.0" file_path="..\..\..\..\..\..\..\Users\Dad\wedbing\tempfilestore\02123000122030201.jpg"/>
+        </object>
+        <object class="WED_Ring" id="209" parent_id="208">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="210"/>
+                <child id="211"/>
+                <child id="212"/>
+                <child id="213"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
+        </object>
+        <object class="WED_TextureNode" id="210" parent_id="209">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 4"/>
+            <point latitude="48.536613000" longitude="-123.000183000"/>
+            <texture_node s="0.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="211" parent_id="209">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.536613000" longitude="-122.997436000"/>
+            <texture_node s="1.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="212" parent_id="209">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.538431000" longitude="-122.997436000"/>
+            <texture_node s="1.0000" t="1.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="213" parent_id="209">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.538431000" longitude="-123.000183000"/>
+            <texture_node s="0.0000" t="1.0000"/>
+        </object>
+        <object class="WED_OverlayImage" id="214" parent_id="21">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="215"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="02123000122030203"/>
+            <overlay_image alpha="1.0" file_path="..\..\..\..\..\..\..\Users\Dad\wedbing\tempfilestore\02123000122030203.jpg"/>
+        </object>
+        <object class="WED_Ring" id="215" parent_id="214">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="216"/>
+                <child id="217"/>
+                <child id="218"/>
+                <child id="219"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
+        </object>
+        <object class="WED_TextureNode" id="216" parent_id="215">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 4"/>
+            <point latitude="48.534794000" longitude="-123.000183000"/>
+            <texture_node s="0.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="217" parent_id="215">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.534794000" longitude="-122.997436000"/>
+            <texture_node s="1.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="218" parent_id="215">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.536613000" longitude="-122.997436000"/>
+            <texture_node s="1.0000" t="1.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="219" parent_id="215">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.536613000" longitude="-123.000183000"/>
+            <texture_node s="0.0000" t="1.0000"/>
+        </object>
+        <object class="WED_OverlayImage" id="220" parent_id="21">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="221"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="02123000122030221"/>
+            <overlay_image alpha="1.0" file_path="..\..\..\..\..\..\..\Users\Dad\wedbing\tempfilestore\02123000122030221.jpg"/>
+        </object>
+        <object class="WED_Ring" id="221" parent_id="220">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="222"/>
+                <child id="223"/>
+                <child id="224"/>
+                <child id="225"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
+        </object>
+        <object class="WED_TextureNode" id="222" parent_id="221">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 4"/>
+            <point latitude="48.532975000" longitude="-123.000183000"/>
+            <texture_node s="0.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="223" parent_id="221">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.532975000" longitude="-122.997436000"/>
+            <texture_node s="1.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="224" parent_id="221">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.534794000" longitude="-122.997436000"/>
+            <texture_node s="1.0000" t="1.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="225" parent_id="221">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.534794000" longitude="-123.000183000"/>
+            <texture_node s="0.0000" t="1.0000"/>
+        </object>
+        <object class="WED_OverlayImage" id="226" parent_id="21">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="227"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="02123000122030223"/>
+            <overlay_image alpha="1.0" file_path="..\..\..\..\..\..\..\Users\Dad\wedbing\tempfilestore\02123000122030223.jpg"/>
+        </object>
+        <object class="WED_Ring" id="227" parent_id="226">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="228"/>
+                <child id="229"/>
+                <child id="230"/>
+                <child id="231"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
+        </object>
+        <object class="WED_TextureNode" id="228" parent_id="227">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 4"/>
+            <point latitude="48.531157000" longitude="-123.000183000"/>
+            <texture_node s="0.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="229" parent_id="227">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.531157000" longitude="-122.997436000"/>
+            <texture_node s="1.0000" t="0.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="230" parent_id="227">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.532975000" longitude="-122.997436000"/>
+            <texture_node s="1.0000" t="1.0000"/>
+        </object>
+        <object class="WED_TextureNode" id="231" parent_id="227">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point latitude="48.532975000" longitude="-123.000183000"/>
+            <texture_node s="0.0000" t="1.0000"/>
+        </object>
+        <object class="WED_Helipad" id="232" parent_id="11">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="H1"/>
+            <point heading="120.25" latitude="48.539090508" length="50.0" longitude="-123.005661352" width="50.0"/>
+            <helipad lights="Yellow" markings="Default" roughness="0.00" shoulder="None" surface="Concrete"/>
+        </object>
+        <object class="WED_ObjPlacement" id="234" parent_id="264">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dh-RnchRHGryDk.obj"/>
+            <point heading="28.81" latitude="48.537841510" longitude="-123.006783991"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dh-RnchRHGryDk.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="235" parent_id="264">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dU-RnchGryNG.obj"/>
+            <point heading="17.70" latitude="48.537707115" longitude="-123.006581020"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dU-RnchGryNG.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="237" parent_id="264">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dZ-RnchRHRd.obj"/>
+            <point heading="291.50" latitude="48.537388827" longitude="-123.004569200"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dZ-RnchRHRd.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="238" parent_id="264">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="T-RnchRHGry.obj"/>
+            <point heading="202.17" latitude="48.537069732" longitude="-123.003834259"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/T-RnchRHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="239" parent_id="264">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Z-RnchLHRd.obj"/>
+            <point heading="243.43" latitude="48.536800379" longitude="-123.003594357"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/Z-RnchLHRd.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="240" parent_id="264">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Z-RnchRHRd.obj"/>
+            <point heading="221.19" latitude="48.536678494" longitude="-123.003177949"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/Z-RnchRHRd.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="241" parent_id="264">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dB-RnchLH.obj"/>
+            <point heading="255.96" latitude="48.538061861" longitude="-123.008395595"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dB-RnchLH.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="242" parent_id="264">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dT-RnchLHGry.obj"/>
+            <point heading="270.00" latitude="48.538398743" longitude="-123.008406420"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dT-RnchLHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="243" parent_id="264">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dZ-RnchLHGry.obj"/>
+            <point heading="282.65" latitude="48.538876117" longitude="-123.008835085"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dZ-RnchLHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="244" parent_id="264">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="h-RnchRHGry.obj"/>
+            <point heading="230.53" latitude="48.538669687" longitude="-123.008666215"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/h-RnchRHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="245" parent_id="264">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="L-RnchLHGry.obj"/>
+            <point heading="301.14" latitude="48.540107210" longitude="-123.008119103"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/L-RnchLHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="246" parent_id="263">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="JB_Quai01.obj"/>
+            <point heading="171.21" latitude="48.539459850" longitude="-123.009040409"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="JB_LibrarySFR/JB_Objects/JB_Quai01.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="247" parent_id="263">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="JB_Quai06.obj"/>
+            <point heading="-114.89" latitude="48.537424620" longitude="-123.006747183"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="JB_LibrarySFR/JB_Objects/JB_Quai06.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="248" parent_id="263">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="JB_Quai09.obj"/>
+            <point heading="279.32" latitude="48.539906794" longitude="-123.008695277"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="JB_LibrarySFR/JB_Objects/JB_Quai09.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="249" parent_id="263">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="JB_Quai17.obj"/>
+            <point heading="153.03" latitude="48.538175310" longitude="-123.009048802"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="JB_LibrarySFR/JB_Objects/JB_Quai17.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="250" parent_id="263">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="JB_Quai18.obj"/>
+            <point heading="-44.55" latitude="48.537989918" longitude="-123.008675502"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="JB_LibrarySFR/JB_Objects/JB_Quai18.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="251" parent_id="263">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="JB_Quai07.obj"/>
+            <point heading="-45.99" latitude="48.537156118" longitude="-123.005677935"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="JB_LibrarySFR/JB_Objects/JB_Quai07.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="252" parent_id="263">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="JB_Quai18.obj"/>
+            <point heading="-44.56" latitude="48.537875015" longitude="-123.008852649"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="JB_LibrarySFR/JB_Objects/JB_Quai18.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="253" parent_id="263">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="JB_Quai17.obj"/>
+            <point heading="-27.34" latitude="48.538330772" longitude="-123.008591583"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="JB_LibrarySFR/JB_Objects/JB_Quai17.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="255" parent_id="263">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="JB_Quai01.obj"/>
+            <point heading="134.81" latitude="48.538422378" longitude="-123.009186276"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="JB_LibrarySFR/JB_Objects/JB_Quai01.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="258" parent_id="263">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="JB_Quai17.obj"/>
+            <point heading="135.27" latitude="48.538467588" longitude="-123.009120911"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="JB_LibrarySFR/JB_Objects/JB_Quai17.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="259" parent_id="263">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="JB_Quai05.obj"/>
+            <point heading="-206.07" latitude="48.539173362" longitude="-123.009309505"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="JB_LibrarySFR/JB_Objects/JB_Quai05.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="260" parent_id="263">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="JB_Quai01.obj"/>
+            <point heading="-189.53" latitude="48.539470269" longitude="-123.008945420"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="JB_LibrarySFR/JB_Objects/JB_Quai01.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="261" parent_id="263">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="JB_Quai01.obj"/>
+            <point heading="170.09" latitude="48.539480932" longitude="-123.008850085"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="JB_LibrarySFR/JB_Objects/JB_Quai01.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="262" parent_id="263">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="JB_Quai09.obj"/>
+            <point heading="-256.87" latitude="48.539907162" longitude="-123.008696617"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="JB_LibrarySFR/JB_Objects/JB_Quai09.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_Group" id="263" parent_id="5">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="251"/>
+                <child id="252"/>
+                <child id="250"/>
+                <child id="259"/>
+                <child id="258"/>
+                <child id="255"/>
+                <child id="253"/>
+                <child id="249"/>
+                <child id="262"/>
+                <child id="248"/>
+                <child id="247"/>
+                <child id="261"/>
+                <child id="260"/>
+                <child id="246"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Jetty"/>
+        </object>
+        <object class="WED_Group" id="264" parent_id="5">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="245"/>
+                <child id="244"/>
+                <child id="243"/>
+                <child id="242"/>
+                <child id="241"/>
+                <child id="240"/>
+                <child id="239"/>
+                <child id="238"/>
+                <child id="237"/>
+                <child id="235"/>
+                <child id="234"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Houses"/>
+        </object>
+    </objects>
+    <prefs>
+        <pref name="PropertyPane0/Closed">
+            <item value="21"/>
+            <item value="263"/>
+            <item value="264"/>
+        </pref>
+        <pref name="doc/export_target" value="4"/>
+        <pref name="doc/use_feet" value="1"/>
+        <pref name="map/east" value="-123.005969"/>
+        <pref name="map/north" value="48.541149"/>
+        <pref name="map/obj_density" value="6"/>
+        <pref name="map/pavement_alpha" value="1"/>
+        <pref name="map/preview_vis" value="1"/>
+        <pref name="map/real_lines_vis" value="1"/>
+        <pref name="map/south" value="48.536189"/>
+        <pref name="map/vertices_vis" value="1"/>
+        <pref name="map/west" value="-123.013755"/>
+        <pref name="map/world_map_vis" value="0"/>
+        <pref name="map_Airport Beacon_Kind" value="69"/>
+        <pref name="map_Boundary_.Markings" value=""/>
+        <pref name="map_Boundary_Lights" value=""/>
+        <pref name="map_Boundary_Markings" value=""/>
+        <pref name="map_Exclusions_Exclusions" value="112"/>
+        <pref name="map_Facades_Height" value="10.000000"/>
+        <pref name="map_Facades_Resource" value="lib/g10/autogen/point_building_30x30_16.fac"/>
+        <pref name="map_Forests_Density" value="1.000000"/>
+        <pref name="map_Forests_Resource" value="lib/g10/forests/AG_trees_EU1.for"/>
+        <pref name="map_Helipad_Edge Lights" value="15"/>
+        <pref name="map_Helipad_Markings" value="67"/>
+        <pref name="map_Helipad_Roughness" value="0.000000"/>
+        <pref name="map_Helipad_Shoulder" value="56"/>
+        <pref name="map_Helipad_Surface" value="33"/>
+        <pref name="map_Hole_.Markings" value=""/>
+        <pref name="map_Hole_Lights" value=""/>
+        <pref name="map_Hole_Markings" value=""/>
+        <pref name="map_Light Fixture_Approach Angle" value="3.000000"/>
+        <pref name="map_Light Fixture_Fixture Type" value="35"/>
+        <pref name="map_Lines_Resource" value="CDB-Library/Airport/paviment/dashed_line.lin"/>
+        <pref name="map_Objects_Object" value="JB_LibrarySFR/JB_Objects/JB_Quai09.obj"/>
+        <pref name="map_Objects_Show with" value="558"/>
+        <pref name="map_Polygons_Heading" value="0.000000"/>
+        <pref name="map_Polygons_Resource" value="lib/g10/terrain10/grass_rainforest_fl_tp.pol"/>
+        <pref name="map_Polygons_Use Texture Map - Orthophoto" value="0"/>
+        <pref name="map_Ramp Start_Airlines" value=""/>
+        <pref name="map_Ramp Start_Equipment Type" value="130,131,132"/>
+        <pref name="map_Ramp Start_Ramp Operation Type" value="531"/>
+        <pref name="map_Ramp Start_Ramp Start Type" value="141"/>
+        <pref name="map_Ramp Start_Size" value="524"/>
+        <pref name="map_Runway_Appch" value="46"/>
+        <pref name="map_Runway_Center" value="1"/>
+        <pref name="map_Runway_Dist" value="1"/>
+        <pref name="map_Runway_Edge" value="7"/>
+        <pref name="map_Runway_Marks" value="61"/>
+        <pref name="map_Runway_REIL" value="11"/>
+        <pref name="map_Runway_Rough" value="147.000000"/>
+        <pref name="map_Runway_Shoulder" value="58"/>
+        <pref name="map_Runway_Surface" value="26"/>
+        <pref name="map_Runway_TDZL" value="0"/>
+        <pref name="map_Sealane_Buoys" value="1"/>
+        <pref name="map_Sign_Size" value="17"/>
+        <pref name="map_Sign_Style" value="23"/>
+        <pref name="map_Sign_Text" value="{@R}24-06{@@,@Y}WELCOME"/>
+        <pref name="map_Strings_Resource" value="lib/airport/lights/slow/102_edge_twy_B.str"/>
+        <pref name="map_Strings_Spacing" value="5.000000"/>
+        <pref name="map_Taxi Routes_Allowed Vehicles" value="144"/>
+        <pref name="map_Taxi Routes_Arrival" value="192,264"/>
+        <pref name="map_Taxi Routes_Departure" value="192,264"/>
+        <pref name="map_Taxi Routes_ILS" value=""/>
+        <pref name="map_Taxi Routes_Name" value="C"/>
+        <pref name="map_Taxi Routes_Oneway" value="0"/>
+        <pref name="map_Taxi Routes_Runway" value="305"/>
+        <pref name="map_Taxi Routes_Size" value="525"/>
+        <pref name="map_Taxi Routes_Slop" value="20"/>
+        <pref name="map_Taxilines_.Markings" value="78"/>
+        <pref name="map_Taxilines_Lights" value=""/>
+        <pref name="map_Taxilines_Markings" value="78"/>
+        <pref name="map_Taxiway_.Markings" value=""/>
+        <pref name="map_Taxiway_Heading" value="0.000000"/>
+        <pref name="map_Taxiway_Lights" value=""/>
+        <pref name="map_Taxiway_Markings" value=""/>
+        <pref name="map_Taxiway_Pavement" value="26"/>
+        <pref name="map_Taxiway_Roughness" value="0.000000"/>
+        <pref name="map_Tower Viewpoint_Tower Height" value="25.000000"/>
+        <pref name="map_Truck Destination_Truck Types" value=""/>
+        <pref name="map_Truck Parking_." value="3"/>
+        <pref name="map_Truck Parking_Truck Type" value="156"/>
+        <pref name="map_Vertex_Snap To Vertices" value="1"/>
+        <pref name="map_Windsock_Lit" value="0"/>
+        <pref name="window/height" value="1007"/>
+        <pref name="window/main_split" value="298"/>
+        <pref name="window/main_split2" value="1402"/>
+        <pref name="window/prev_split" value="291"/>
+        <pref name="window/prop_split" value="512"/>
+        <pref name="window/width" value="1920"/>
+        <pref name="window/x_loc" value="-8"/>
+        <pref name="window/y_loc" value="-8"/>
+    </prefs>
+</doc>
