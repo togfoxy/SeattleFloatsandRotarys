@@ -28,7 +28,7 @@
             <children/>
             <hierarchy name="selection"/>
             <selection>
-                <sel id="92"/>
+                <sel id="89"/>
             </selection>
         </object>
         <object class="WED_TextureNode" id="66" parent_id="65">
@@ -46,7 +46,7 @@
                 <child id="19"/>
                 <child id="20"/>
             </children>
-            <hierarchy hidden="0" locked="0" name="12/30"/>
+            <hierarchy hidden="0" locked="1" name="12/30"/>
             <line width="60.96"/>
             <sealane has_buoys="1"/>
         </object>
@@ -71,6 +71,7 @@
             <sources/>
             <viewers/>
             <children>
+                <child id="76"/>
                 <child id="18"/>
             </children>
             <hierarchy hidden="0" locked="0" name="Runways"/>
@@ -117,10 +118,18 @@
             <sources/>
             <viewers/>
             <children>
+                <child id="129"/>
+                <child id="128"/>
+                <child id="127"/>
+                <child id="122"/>
+                <child id="125"/>
+                <child id="123"/>
+                <child id="121"/>
+                <child id="120"/>
+                <child id="119"/>
+                <child id="118"/>
                 <child id="92"/>
                 <child id="87"/>
-                <child id="83"/>
-                <child id="76"/>
                 <child id="11"/>
                 <child id="21"/>
             </children>
@@ -581,41 +590,13 @@
             <point latitude="47.502358000" longitude="-122.222900000"/>
             <texture_node s="1.0000" t="1.0000"/>
         </object>
-        <object class="WED_Helipad" id="76" parent_id="5">
+        <object class="WED_Helipad" id="76" parent_id="11">
             <sources/>
             <viewers/>
             <children/>
-            <hierarchy hidden="0" locked="0" name="H7"/>
+            <hierarchy hidden="0" locked="1" name="H1"/>
             <point heading="359.89" latitude="47.503038409" length="19.6" longitude="-122.225504776" width="23.3"/>
             <helipad lights="Yellow" markings="Default" roughness="0.00" shoulder="None" surface="Transparent"/>
-        </object>
-        <object class="WED_ExclusionZone" id="83" parent_id="5">
-            <sources/>
-            <viewers/>
-            <children>
-                <child id="84"/>
-                <child id="85"/>
-            </children>
-            <hierarchy hidden="0" locked="0" name="Exclusion Zone 12"/>
-            <excluzions>
-                <exclusion value="Objects"/>
-                <exclusion value="Facades"/>
-                <exclusion value="Forests"/>
-            </excluzions>
-        </object>
-        <object class="WED_SimpleBoundaryNode" id="84" parent_id="83">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="Start"/>
-            <point latitude="47.502895487" longitude="-122.225737070"/>
-        </object>
-        <object class="WED_SimpleBoundaryNode" id="85" parent_id="83">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="End"/>
-            <point latitude="47.503193760" longitude="-122.225286835"/>
         </object>
         <object class="WED_AirportChain" id="86" parent_id="87">
             <sources/>
@@ -642,7 +623,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Node 1"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.502936081" longitude="-122.225686611" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.502939136" longitude="-122.225808948" split="0"/>
             <markings/>
         </object>
         <object class="WED_AirportNode" id="89" parent_id="86">
@@ -650,7 +631,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Node 2"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.502941423" longitude="-122.225319017" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.502884716" longitude="-122.225401226" split="0"/>
             <markings/>
         </object>
         <object class="WED_AirportNode" id="90" parent_id="86">
@@ -658,7 +639,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Node 3"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.503150325" longitude="-122.225324711" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.503095140" longitude="-122.225342290" split="0"/>
             <markings/>
         </object>
         <object class="WED_AirportNode" id="91" parent_id="86">
@@ -666,16 +647,96 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Node 4"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.503147654" longitude="-122.225681391" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="47.503186853" longitude="-122.225566078" split="0"/>
             <markings/>
         </object>
         <object class="WED_ObjPlacement" id="92" parent_id="5">
             <sources/>
             <viewers/>
             <children/>
-            <hierarchy hidden="0" locked="0" name="rooftop_helipad_5.obj"/>
+            <hierarchy hidden="0" locked="1" name="rooftop_helipad_5.obj"/>
             <point heading="35.00" latitude="47.503042177" longitude="-122.225506697"/>
-            <obj_placement custom_msl="1" msl="16.002" resource="lib/g10/global_objects/rooftop_helipad_5.obj" show_level="1 Default"/>
+            <obj_placement custom_msl="1" msl="14.326" resource="lib/g10/global_objects/rooftop_helipad_5.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="118" parent_id="5">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="1" name="Blue_Dumpster_w_wall.obj"/>
+            <point heading="215.00" latitude="47.503061636" longitude="-122.225402862"/>
+            <obj_placement custom_msl="1" msl="11.887" resource="lib/airport/Common_Elements/Miscellaneous/Blue_Dumpster_w_wall.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="119" parent_id="5">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="1" name="Blue_Dumpster_w_wall.obj"/>
+            <point heading="215.00" latitude="47.503083610" longitude="-122.225448872"/>
+            <obj_placement custom_msl="1" msl="11.887" resource="lib/airport/Common_Elements/Miscellaneous/Blue_Dumpster_w_wall.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="120" parent_id="5">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="1" name="Blue_Dumpster_w_wall.obj"/>
+            <point heading="215.00" latitude="47.503105540" longitude="-122.225494788"/>
+            <obj_placement custom_msl="1" msl="11.887" resource="lib/airport/Common_Elements/Miscellaneous/Blue_Dumpster_w_wall.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="121" parent_id="5">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="1" name="Blue_Dumpster_w_wall.obj"/>
+            <point heading="215.00" latitude="47.503115524" longitude="-122.225515694"/>
+            <obj_placement custom_msl="1" msl="11.887" resource="lib/airport/Common_Elements/Miscellaneous/Blue_Dumpster_w_wall.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="122" parent_id="5">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="1" name="Blue_Dumpster_w_wall.obj"/>
+            <point heading="305.00" latitude="47.503021974" longitude="-122.225425626"/>
+            <obj_placement custom_msl="1" msl="11.887" resource="lib/airport/Common_Elements/Miscellaneous/Blue_Dumpster_w_wall.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="123" parent_id="5">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="1" name="Blue_Dumpster_w_wall.obj"/>
+            <point heading="305.00" latitude="47.502991071" longitude="-122.225457818"/>
+            <obj_placement custom_msl="1" msl="11.887" resource="lib/airport/Common_Elements/Miscellaneous/Blue_Dumpster_w_wall.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="125" parent_id="5">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="1" name="Blue_Dumpster_w_wall.obj"/>
+            <point heading="305.00" latitude="47.502972008" longitude="-122.225477406"/>
+            <obj_placement custom_msl="1" msl="11.887" resource="lib/airport/Common_Elements/Miscellaneous/Blue_Dumpster_w_wall.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="127" parent_id="5">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="1" name="Blue_Dumpster_w_wall.obj"/>
+            <point heading="125.00" latitude="47.503086326" longitude="-122.225562997"/>
+            <obj_placement custom_msl="1" msl="11.887" resource="lib/airport/Common_Elements/Miscellaneous/Blue_Dumpster_w_wall.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="128" parent_id="5">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="1" name="Blue_Dumpster_w_wall.obj"/>
+            <point heading="125.00" latitude="47.503065885" longitude="-122.225583958"/>
+            <obj_placement custom_msl="1" msl="11.887" resource="lib/airport/Common_Elements/Miscellaneous/Blue_Dumpster_w_wall.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="129" parent_id="5">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="1" name="Blue_Dumpster_w_wall.obj"/>
+            <point heading="125.00" latitude="47.503036351" longitude="-122.225614698"/>
+            <obj_placement custom_msl="1" msl="11.887" resource="lib/airport/Common_Elements/Miscellaneous/Blue_Dumpster_w_wall.obj" show_level="1 Default"/>
         </object>
     </objects>
     <prefs>
@@ -684,15 +745,15 @@
         </pref>
         <pref name="doc/export_target" value="5"/>
         <pref name="doc/use_feet" value="1"/>
-        <pref name="map/east" value="-122.223623"/>
-        <pref name="map/north" value="47.504537"/>
+        <pref name="map/east" value="-122.224899"/>
+        <pref name="map/north" value="47.503551"/>
         <pref name="map/obj_density" value="6"/>
         <pref name="map/pavement_alpha" value="1"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-        <pref name="map/south" value="47.501391"/>
+        <pref name="map/south" value="47.502215"/>
         <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="-122.227599"/>
+        <pref name="map/west" value="-122.226183"/>
         <pref name="map/world_map_vis" value="0"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
@@ -700,7 +761,7 @@
         <pref name="map_Boundary_Markings" value=""/>
         <pref name="map_Exclusions_Exclusions" value="112"/>
         <pref name="map_Facades_Height" value="10.000000"/>
-        <pref name="map_Facades_Resource" value="lib/airport/Common_Elements/Misc_Buildings/White_Office.fac"/>
+        <pref name="map_Facades_Resource" value="lib/g10/global_objects/wall_res_brick.fac"/>
         <pref name="map_Forests_Density" value="1.000000"/>
         <pref name="map_Forests_Resource" value="lib/g8/orch_hot_sdry.for"/>
         <pref name="map_Helipad_Edge Lights" value="15"/>
@@ -714,10 +775,10 @@
         <pref name="map_Light Fixture_Approach Angle" value="3.000000"/>
         <pref name="map_Light Fixture_Fixture Type" value="35"/>
         <pref name="map_Lines_Resource" value="CDB-Library/Airport/paviment/dashed_line.lin"/>
-        <pref name="map_Objects_Object" value="lib/g10/global_objects/rooftop_helipad_5.obj"/>
+        <pref name="map_Objects_Object" value="lib/airport/Common_Elements/Miscellaneous/Blue_Dumpster_w_wall.obj"/>
         <pref name="map_Objects_Show with" value="558"/>
         <pref name="map_Polygons_Heading" value="0.000000"/>
-        <pref name="map_Polygons_Resource" value="lib/g10/terrain10/orch_hot_rain_sflat.pol"/>
+        <pref name="map_Polygons_Resource" value="lib/g10/US/industrial/power/OnshoreWF1.ags"/>
         <pref name="map_Polygons_Use Texture Map - Orthophoto" value="0"/>
         <pref name="map_Ramp Start_Airlines" value=""/>
         <pref name="map_Ramp Start_Equipment Type" value="130,131,132"/>
@@ -765,10 +826,10 @@
         <pref name="map_Vertex_Snap To Vertices" value="1"/>
         <pref name="map_Windsock_Lit" value="0"/>
         <pref name="window/height" value="827"/>
-        <pref name="window/main_split" value="176"/>
-        <pref name="window/main_split2" value="948"/>
-        <pref name="window/prev_split" value="287"/>
-        <pref name="window/prop_split" value="504"/>
+        <pref name="window/main_split" value="316"/>
+        <pref name="window/main_split2" value="928"/>
+        <pref name="window/prev_split" value="307"/>
+        <pref name="window/prop_split" value="528"/>
         <pref name="window/width" value="1440"/>
         <pref name="window/x_loc" value="-1448"/>
         <pref name="window/y_loc" value="168"/>
