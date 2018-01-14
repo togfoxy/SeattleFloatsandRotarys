@@ -58,7 +58,10 @@
             <children/>
             <hierarchy name="selection"/>
             <selection>
-                <sel id="7"/>
+                <sel id="1018"/>
+                <sel id="1019"/>
+                <sel id="1022"/>
+                <sel id="1023"/>
             </selection>
         </object>
         <object class="WED_TextureNode" id="514" parent_id="513">
@@ -7333,7 +7336,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="buoy.obj"/>
-            <point heading="0.00" latitude="48.472111580" longitude="-123.007725774"/>
+            <point heading="0.00" latitude="48.471741730" longitude="-123.006445419"/>
             <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/landscape/buoy.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="1017" parent_id="1027">
@@ -7341,7 +7344,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="buoy.obj"/>
-            <point heading="270.00" latitude="48.472277143" longitude="-123.007887410"/>
+            <point heading="270.00" latitude="48.472333648" longitude="-123.006971208"/>
             <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/landscape/buoy.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="1018" parent_id="1027">
@@ -7349,7 +7352,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="buoy.obj"/>
-            <point heading="0.00" latitude="48.472438769" longitude="-123.008046193"/>
+            <point heading="0.00" latitude="48.472739975" longitude="-123.007601247"/>
             <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/landscape/buoy.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="1019" parent_id="1027">
@@ -7357,7 +7360,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="buoy.obj"/>
-            <point heading="180.00" latitude="48.472596064" longitude="-123.008194706"/>
+            <point heading="180.00" latitude="48.473323624" longitude="-123.008113913"/>
             <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/landscape/buoy.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="1020" parent_id="1027">
@@ -7365,7 +7368,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="buoy.obj"/>
-            <point heading="0.00" latitude="48.472254209" longitude="-123.007523585"/>
+            <point heading="0.00" latitude="48.472010108" longitude="-123.005863900"/>
             <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/landscape/buoy.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="1021" parent_id="1027">
@@ -7373,7 +7376,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="buoy.obj"/>
-            <point heading="0.00" latitude="48.472401290" longitude="-123.007665566"/>
+            <point heading="0.00" latitude="48.472547586" longitude="-123.006447511"/>
             <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/landscape/buoy.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="1022" parent_id="1027">
@@ -7381,7 +7384,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="buoy.obj"/>
-            <point heading="180.00" latitude="48.472536605" longitude="-123.007798672"/>
+            <point heading="180.00" latitude="48.472963560" longitude="-123.006974396"/>
             <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/landscape/buoy.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="1023" parent_id="1027">
@@ -7389,7 +7392,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="buoy.obj"/>
-            <point heading="0.00" latitude="48.472701337" longitude="-123.007949526"/>
+            <point heading="0.00" latitude="48.473518688" longitude="-123.007566880"/>
             <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/landscape/buoy.obj" show_level="1 Default"/>
         </object>
         <object class="WED_Group" id="1027" parent_id="156">
@@ -7416,15 +7419,15 @@
         </pref>
         <pref name="doc/export_target" value="5"/>
         <pref name="doc/use_feet" value="1"/>
-        <pref name="map/east" value="-123.007205"/>
-        <pref name="map/north" value="48.472929"/>
+        <pref name="map/east" value="-123.005526"/>
+        <pref name="map/north" value="48.474103"/>
         <pref name="map/obj_density" value="6"/>
         <pref name="map/pavement_alpha" value="1"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-        <pref name="map/south" value="48.471599"/>
+        <pref name="map/south" value="48.469943"/>
         <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="-123.008538"/>
+        <pref name="map/west" value="-123.009695"/>
         <pref name="map/world_map_vis" value="0"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
@@ -7499,8 +7502,8 @@
         <pref name="window/height" value="827"/>
         <pref name="window/main_split" value="298"/>
         <pref name="window/main_split2" value="922"/>
-        <pref name="window/prev_split" value="261"/>
-        <pref name="window/prop_split" value="392"/>
+        <pref name="window/prev_split" value="271"/>
+        <pref name="window/prop_split" value="402"/>
         <pref name="window/width" value="1440"/>
         <pref name="window/x_loc" value="-1448"/>
         <pref name="window/y_loc" value="168"/>
