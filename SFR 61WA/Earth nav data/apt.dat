@@ -30,35 +30,52 @@ I
 111  48.47193248 -123.02169107
 111  48.47184863 -123.00799103
 113  48.47385950 -123.00864621
-1300  48.47242154 -123.01967811  43.38 tie_down turboprops|props Parking B
+1300  48.47220729 -123.01778083   0.00 tie_down turboprops|props Parking B
 1301 A general_aviation 
-1300  48.47243636 -123.01894859   0.00 tie_down turboprops|props Parking C
+1300  48.47218965 -123.01643440   0.00 tie_down turboprops|props Parking C
 1301 A general_aviation 
-1300  48.47289465 -123.02032802  90.69 tie_down turboprops|props Parking A
+1300  48.47284758 -123.02038680  88.99 tie_down turboprops|props Parking A
 1301 A general_aviation 
 19  48.47241483 -123.01861472 1 WS
 19  48.47243433 -123.01079296 1 WS
 1200 
-1201  48.47276667 -123.01906125 both 0 A_stop
-1201  48.47276211 -123.01882770 both 1 RW_stop
-1201  48.47273754 -123.00929288 both 2 RW_start
-1201  48.47242154 -123.01967811 both 3 Parking B
-1201  48.47243636 -123.01894859 both 4 Parking C
-1201  48.47289465 -123.02032802 both 5 Parking A
-1202 1 0 twoway taxiway_C A
+1201  48.47276211 -123.01882770 both 0 RW_stop
+1201  48.47272933 -123.00930802 both 1 RW_start
+1201  48.47275472 -123.01645676 both 2 unnamed entity(split)
+1201  48.47275950 -123.01769950 both 3 unnamed entity(split)
+1201  48.47275929 -123.01773971 both 4 unnamed entity(split)
+1201  48.47251990 -123.01644967 both 5 C_stop
+1201  48.47250946 -123.01776234 both 6 B_stop
+1201  48.47284475 -123.02023144 both 7 A_stop
+1201  48.47220729 -123.01778083 both 8 Parking B
+1201  48.47218965 -123.01643440 both 9 Parking C
+1201  48.47284758 -123.02038680 both 10 Parking A
+1202 7 0 twoway taxiway_A A
 1204 departure 09,27
 1204 arrival 09,27
-1202 2 1 twoway runway 09/27
+1202 1 2 twoway runway 09/27
 1204 departure 09,27
 1204 arrival 09,27
 1204 ils 09,27
-1202 0 4 twoway taxiway_C C
+1202 2 3 twoway runway 09/27
 1204 departure 09,27
 1204 arrival 09,27
-1202 0 3 twoway taxiway_C B
+1204 ils 09,27
+1202 3 4 twoway runway 09/27
 1204 departure 09,27
 1204 arrival 09,27
-1202 0 5 twoway taxiway_C A
+1204 ils 09,27
+1202 4 0 twoway runway 09/27
 1204 departure 09,27
 1204 arrival 09,27
+1204 ils 09,27
+1202 5 2 twoway taxiway_A C
+1204 departure 09,27
+1204 arrival 09,27
+1202 9 5 twoway taxiway_A C
+1202 6 4 twoway taxiway_A B
+1204 departure 09,27
+1204 arrival 09,27
+1202 8 6 twoway taxiway_A B
+1202 10 7 twoway taxiway_A A
 99
